@@ -1,4 +1,4 @@
-# 黑环CE助手运行依赖
+# Nightreign-Relic-Editor（黑环CE助手）运行依赖
 # 界面：pywebview + Web 前端（0.7.0 起；此前是 PySide6，已移除）
 
 # 界面外壳（依赖系统 WebView2 运行时渲染）

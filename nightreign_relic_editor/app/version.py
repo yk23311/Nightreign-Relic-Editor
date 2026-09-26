@@ -8,16 +8,18 @@
 0.7.0 = 界面重构：pywebview + Web 前端（卡片工作台），去 PySide6，改 onedir 分发；
 1.0.0 = 首个对外发布版：整理仓库、完善说明书、版本号转正。
 旧产物名 黑环CE助手_vN.exe 的 N 与版本号无固定关系，对应关系见 README「版本历史」。
+APP_NAME 是程序对外名称，同时决定 exe / 发布目录名（webui.spec 与 build.py 都读它）；
+APP_NAME_ZH 是中文名，仅用于界面与文档中的显示。
 本模块**不得**导入任何第三方库，以便 PyInstaller 的 .spec 在打包前直接读取。
 """
 
 __version__ = "1.0.0"
 
-APP_NAME = "黑环CE助手"
-APP_NAME_EN = "BlackRing CE Assistant"
+APP_NAME = "Nightreign-Relic-Editor"
+APP_NAME_ZH = "黑环CE助手"
 BUILD_DATE = "2026-09-26"
 
 
 def version_string() -> str:
-    """界面/日志用，例如：黑环CE助手 v1.0.0"""
+    """界面/日志用，例如：Nightreign-Relic-Editor v1.0.0"""
     return f"{APP_NAME} v{__version__}"

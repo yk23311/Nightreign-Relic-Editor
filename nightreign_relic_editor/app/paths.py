@@ -7,7 +7,7 @@ from pathlib import Path
 
 
 def app_root() -> Path:
-    """开发态=项目根（blackring_ce_assistant/）；冻结态=exe 解包目录（onefile 为 _MEIPASS）。
+    """开发态=项目根（nightreign_relic_editor/）；冻结态=exe 解包目录（onefile 为 _MEIPASS）。
 
     注意层级：本文件是 <项目>/app/paths.py，所以项目根是 parents[1]。
     曾误写成 parents[2]，于是源码运行时 data_dir() 指向**工作区根目录**、

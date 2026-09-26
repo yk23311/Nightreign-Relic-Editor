@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 """打包脚本：python build.py
 
-产物：dist/黑环CE助手_v<版本>/（PyInstaller onedir 绿色文件夹）
+产物：dist/Nightreign-Relic-Editor_v<版本>/（PyInstaller onedir 绿色文件夹）
 
 **不要改回整目录清理 dist/**：历史上这里用 shutil.rmtree 同时清 "build" 和 "dist"，
 而 dist/ 里是各版本唯一的一份交付产物，跑一次打包就把历史交付物全删了。
@@ -17,7 +17,7 @@ ROOT = Path(__file__).resolve().parent
 if str(ROOT) not in sys.path:
     sys.path.insert(0, str(ROOT))
 
-from app.version import __version__  # noqa: E402
+from app.version import APP_NAME, __version__  # noqa: E402
 
 DIST = ROOT / "dist"
 SPEC = ROOT / "webui.spec"
@@ -56,14 +56,16 @@ def _copy_docs(target: Path) -> list[str]:
 
 
 def main() -> int:
-    pyinstaller = ROOT / ".venv" / "Scripts" / "pyinstaller.exe"
-    if not pyinstaller.exists():
-        pyinstaller = Path(sys.executable).parent / "pyinstaller.exe"
-    if not pyinstaller.exists():
-        print("未找到 pyinstaller，请先: pip install -r requirements.txt")
+    # 用「当前解释器 -m PyInstaller」，而不是 Scripts\pyinstaller.exe：
+    # pip 生成的 exe 启动器内嵌了创建 venv 时的绝对解释器路径，一旦项目目录被
+    # 改名或移动，它会**零输出**地直接退出 1（本仓库改名时实测踩到）。
+    try:
+        import PyInstaller  # noqa: F401
+    except ImportError:
+        print("未找到 PyInstaller，请先: pip install -r requirements.txt")
         return 1
 
-    name = f"黑环CE助手_v{__version__}"
+    name = f"{APP_NAME}_v{__version__}"
     target = DIST / name
     exe = target / f"{name}.exe"
 
@@ -79,7 +81,7 @@ def main() -> int:
     DIST.mkdir(parents=True, exist_ok=True)
 
     print("打包目标：" + str(target))
-    cmd = [str(pyinstaller), "--noconfirm", "--clean", str(SPEC)]
+    cmd = [sys.executable, "-m", "PyInstaller", "--noconfirm", "--clean", str(SPEC)]
     print("执行:", " ".join(cmd))
     r = subprocess.call(cmd, cwd=str(ROOT))
     if r != 0:

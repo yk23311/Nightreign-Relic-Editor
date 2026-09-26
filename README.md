@@ -1,4 +1,4 @@
-# 黑环CE助手 · BlackRing CE Assistant
+# Nightreign-Relic-Editor · 黑环CE助手
 
 **v1.0.0** ｜ 适用于《艾尔登法环：黑夜君临》的**离线遗物修改器**
 
@@ -24,7 +24,7 @@
 
 **特性**：离线可用 · 不依赖 Cheat Engine 客户端 · 中文界面 · 卡片式操作 · 写入前规则校验 · 全程可撤销
 
-![界面预览](blackring_ce_assistant/docs/screenshot-main.png)
+![界面预览](nightreign_relic_editor/docs/screenshot-main.png)
 
 *上图是演示模式（`python main.py --demo`）—— 不需要游戏就能看到界面长什么样。*
 
@@ -35,10 +35,10 @@
 | 文档 | 内容 |
 |------|------|
 | 本文件 | 总览、安装、完整使用说明、FAQ、开发与打包 |
-| [docs/USER_GUIDE.md](blackring_ce_assistant/docs/USER_GUIDE.md) | 使用说明（精简版，适合随程序一起看） |
-| [docs/ARCHITECTURE.md](blackring_ce_assistant/docs/ARCHITECTURE.md) | 架构与分层设计 |
-| [docs/FIELD_MAPPING.md](blackring_ce_assistant/docs/FIELD_MAPPING.md) | 内存字段 / 偏移映射 |
-| [docs/DISCLAIMER.md](blackring_ce_assistant/docs/DISCLAIMER.md) | 免责声明全文 |
+| [docs/USER_GUIDE.md](nightreign_relic_editor/docs/USER_GUIDE.md) | 使用说明（精简版，适合随程序一起看） |
+| [docs/ARCHITECTURE.md](nightreign_relic_editor/docs/ARCHITECTURE.md) | 架构与分层设计 |
+| [docs/FIELD_MAPPING.md](nightreign_relic_editor/docs/FIELD_MAPPING.md) | 内存字段 / 偏移映射 |
+| [docs/DISCLAIMER.md](nightreign_relic_editor/docs/DISCLAIMER.md) | 免责声明全文 |
 
 ---
 
@@ -72,10 +72,10 @@
 
 ### 方式一：下载发布版（推荐）
 
-1. 到本仓库 **Releases** 页下载 `BlackRing-CE-Assistant_v1.0.0.zip`
+1. 到本仓库 **Releases** 页下载 `Nightreign-Relic-Editor_v1.0.0.zip`
    （GitHub 的发布资产名只接受 ASCII，包内程序名仍是中文）
 2. 解压到任意目录（**绿色版，无需安装**）
-3. 双击 `黑环CE助手_v1.0.0.exe`
+3. 双击 `Nightreign-Relic-Editor_v1.0.0.exe`
 
 压缩包里同时附有 `使用说明.md`、`README.md` 与 `LICENSE`，离线也能查。
 
@@ -85,8 +85,8 @@
 ### 方式二：从源码运行
 
 ```bat
-git clone https://github.com/yk23311/blackring-ce-assistant.git
-cd blackring-ce-assistant\blackring_ce_assistant
+git clone https://github.com/yk23311/Nightreign-Relic-Editor.git
+cd Nightreign-Relic-Editor\nightreign_relic_editor
 python -m venv .venv
 .venv\Scripts\activate
 pip install -r requirements.txt
@@ -194,10 +194,10 @@ python main.py --demo
 ## 项目结构
 
 ```text
-blackring-ce-assistant/         ← 仓库根
+Nightreign-Relic-Editor/        ← 仓库根
 ├── README.md                    本文件（完整说明书）
 ├── LICENSE                      GPL-3.0
-└── blackring_ce_assistant/      程序本体
+└── nightreign_relic_editor/     程序本体
     ├── main.py                  入口（转调 webui.main；支持 --demo）
     ├── run_tests.py             零依赖测试运行器
     ├── build.py / webui.spec    打包（PyInstaller onedir）
@@ -245,7 +245,7 @@ cd webui
 
 ```bat
 python build.py
-REM 产物: dist/黑环CE助手_v<版本>/（onedir 绿色文件夹，约 28MB）
+REM 产物: dist/Nightreign-Relic-Editor_v<版本>/（onedir 绿色文件夹，约 28MB）
 REM 说明书与 LICENSE 会自动复制进该目录
 ```
 

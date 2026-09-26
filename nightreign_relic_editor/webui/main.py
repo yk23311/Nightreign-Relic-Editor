@@ -66,10 +66,10 @@ def main(argv: list[str]) -> int:
     from app.logging_setup import setup_logging
     from app.paths import data_dir, user_data_dir
     from app.services.relic_service import PresetService, RelicService
-    from app.version import __version__
+    from app.version import APP_NAME, APP_NAME_ZH, __version__
 
     setup_logging(user_data_dir() / "logs")
-    log.info("=== 启动 黑环CE助手 v%s（新界面%s）===", __version__, "，演示模式" if demo else "")
+    log.info("=== 启动 %s v%s（新界面%s）===", APP_NAME, __version__, "，演示模式" if demo else "")
 
     try:
         import webview
@@ -120,7 +120,7 @@ def main(argv: list[str]) -> int:
         demo=demo,
     )
 
-    title = "黑环CE助手 v" + __version__ + ("（演示模式）" if demo else "")
+    title = APP_NAME + " v" + __version__ + " · " + APP_NAME_ZH + ("（演示模式）" if demo else "")
     webview.create_window(title, str(index), js_api=bridge, width=1380, height=880,
                           min_size=(1080, 680))
     # private_mode=False + 固定 storage_path：

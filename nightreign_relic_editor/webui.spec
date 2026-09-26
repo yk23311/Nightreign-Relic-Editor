@@ -15,7 +15,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(SPECPATH))
 
-from app.version import __version__  # noqa: E402
+from app.version import APP_NAME, __version__  # noqa: E402
 
 root = Path(SPECPATH)
 
@@ -74,7 +74,7 @@ exe = EXE(
     a.scripts,
     [],
     exclude_binaries=True,
-    name="黑环CE助手_v" + __version__,
+    name=APP_NAME + "_v" + __version__,
     debug=False,
     bootloader_ignore_signals=False,
     strip=False,
@@ -96,5 +96,5 @@ coll = COLLECT(
     strip=False,
     upx=False,
     upx_exclude=[],
-    name="黑环CE助手_v" + __version__,
+    name=APP_NAME + "_v" + __version__,
 )

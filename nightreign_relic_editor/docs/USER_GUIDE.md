@@ -8,7 +8,7 @@
 2. 安装依赖并启动：
 
 ```bat
-cd blackring_ce_assistant
+cd Nightreign-Relic-Editor\nightreign_relic_editor
 python -m venv .venv
 .venv\Scripts\activate
 pip install -r requirements.txt
