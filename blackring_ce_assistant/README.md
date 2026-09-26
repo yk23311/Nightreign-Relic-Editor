@@ -193,7 +193,6 @@ blackring_ce_assistant/
 │                            demo.py（演示后端）、web/（HTML/CSS/JS 前端）
 ├── data/                    mapping.json 与 effects_*.json（由 CT 导出）
 ├── tests/                   78 个单元 / 集成用例
-├── prototypes/              界面选型时的三套原型（留档，非产品代码）
 └── docs/                    架构说明、字段映射、使用说明、界面截图
 ```
 

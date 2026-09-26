@@ -28,5 +28,5 @@ def test_data_dir_contains_real_data():
 
 
 def test_data_dir_is_inside_project():
-    # 防止再次漂到工作区根目录（那里也有个 analysis/，极易混淆）
+    # 防止再次漂到工作区根目录（那里有 CT 表等输入文件，极易混淆）
     assert ROOT in data_dir().parents

@@ -13,10 +13,6 @@ env/
 
 # --- PyInstaller 构建中间产物 ---
 build/
-blackring_ce_assistant/spike_webview/build/
-blackring_ce_assistant/spike_webview/dist/
-blackring_ce_assistant/spike_webview/*.spec
-blackring_ce_assistant/spike_webview/spike.log
 *.manifest
 
 # --- 测试缓存与测试产物 ---
@@ -42,14 +38,6 @@ blackring_ce_assistant/dist/_*.txt
 # 它是第三方汉化作品，不随本项目分发。
 *.CT
 third_party/
-
-# --- CT 分析的一次性产物（可由 CT 重新生成；两份 .md 报告与解析脚本保留）---
-analysis/enable_script.txt
-analysis/script_*.txt
-analysis/enum_RelicID.json
-analysis/enum_RelicID_full.json
-analysis/enum_summary.json
-analysis/analyze_ce_lib.py
 
 # --- 旧 git 历史备份（1.0.0 对外发布时改用全新历史，旧历史留作安全网）---
 .git-history-backup/
