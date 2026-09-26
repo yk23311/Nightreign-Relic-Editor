@@ -1,0 +1,297 @@
+{
+  "version": 1,
+  "source_ct": "Elden Ring Nighreign - Hexinton 1.1.0 汉化版.CT",
+  "process_name": "nightreign.exe",
+  "base": "csgaitem",
+  "address_expr": "csgaitem",
+  "symbols": {
+    "csgaitem": {
+      "kind": "aob_rip",
+      "module": "nightreign.exe",
+      "rva": null,
+      "aob": "48 8D 44 24 40 48 89 44 24 50 8B 02 89 44 24 40 48 8B 0D ?? ?? ?? ?? 48 85 C9",
+      "aob_offset": 16,
+      "note": "CSGaitem via AOB+RIP（与 infra/memory/symbols.py 同源）"
+    },
+    "gamedataman": {
+      "kind": "aob_rip",
+      "module": "nightreign.exe",
+      "rva": null,
+      "aob": "48 8B 0D ???????? F3 48 0F 2C C0",
+      "aob_offset": 0,
+      "note": "GameDataMan via AOB+RIP（与 infra/memory/symbols.py 同源）"
+    },
+    "Gaitem": {
+      "kind": "alloc_or_resolve",
+      "module": "nightreign.exe",
+      "rva": null,
+      "note": "6 x u32 槽 ID；由 GaitemCache 在目标进程分配后 set_manual 填充"
+    }
+  },
+  "slots": [
+    {
+      "index": 1,
+      "kind": "STD",
+      "index_expr": "8+8*[Gaitem]",
+      "fields": {
+        "attr1": {
+          "offset": "+18",
+          "type": "u32",
+          "enum": "RelicID",
+          "writable": true
+        },
+        "debuff1": {
+          "offset": "40",
+          "type": "u32",
+          "enum": "RelicIDDebuff",
+          "writable": true
+        },
+        "attr2": {
+          "offset": "+1c",
+          "type": "u32",
+          "enum": "RelicID",
+          "writable": true
+        },
+        "debuff2": {
+          "offset": "44",
+          "type": "u32",
+          "enum": "RelicIDDebuff",
+          "writable": true
+        },
+        "attr3": {
+          "offset": "+20",
+          "type": "u32",
+          "enum": "RelicID",
+          "writable": true
+        },
+        "debuff3": {
+          "offset": "48",
+          "type": "u32",
+          "enum": "RelicIDDebuff",
+          "writable": true
+        }
+      },
+      "address_expr": "csgaitem"
+    },
+    {
+      "index": 2,
+      "kind": "STD",
+      "index_expr": "8+8*[Gaitem+4]",
+      "fields": {
+        "attr1": {
+          "offset": "+18",
+          "type": "u32",
+          "enum": "RelicID",
+          "writable": true
+        },
+        "debuff1": {
+          "offset": "40",
+          "type": "u32",
+          "enum": "RelicIDDebuff",
+          "writable": true
+        },
+        "attr2": {
+          "offset": "+1c",
+          "type": "u32",
+          "enum": "RelicID",
+          "writable": true
+        },
+        "debuff2": {
+          "offset": "44",
+          "type": "u32",
+          "enum": "RelicIDDebuff",
+          "writable": true
+        },
+        "attr3": {
+          "offset": "+20",
+          "type": "u32",
+          "enum": "RelicID",
+          "writable": true
+        },
+        "debuff3": {
+          "offset": "48",
+          "type": "u32",
+          "enum": "RelicIDDebuff",
+          "writable": true
+        }
+      },
+      "address_expr": "csgaitem"
+    },
+    {
+      "index": 3,
+      "kind": "STD",
+      "index_expr": "8+8*[Gaitem+8]",
+      "fields": {
+        "attr1": {
+          "offset": "+18",
+          "type": "u32",
+          "enum": "RelicID",
+          "writable": true
+        },
+        "debuff1": {
+          "offset": "40",
+          "type": "u32",
+          "enum": "RelicIDDebuff",
+          "writable": true
+        },
+        "attr2": {
+          "offset": "+1c",
+          "type": "u32",
+          "enum": "RelicID",
+          "writable": true
+        },
+        "debuff2": {
+          "offset": "44",
+          "type": "u32",
+          "enum": "RelicIDDebuff",
+          "writable": true
+        },
+        "attr3": {
+          "offset": "+20",
+          "type": "u32",
+          "enum": "RelicID",
+          "writable": true
+        },
+        "debuff3": {
+          "offset": "48",
+          "type": "u32",
+          "enum": "RelicIDDebuff",
+          "writable": true
+        }
+      },
+      "address_expr": "csgaitem"
+    },
+    {
+      "index": 4,
+      "kind": "DoN",
+      "index_expr": "8+8*[Gaitem+c]",
+      "fields": {
+        "attr1": {
+          "offset": "+18",
+          "type": "u32",
+          "enum": "RelicID",
+          "writable": true
+        },
+        "debuff1": {
+          "offset": "40",
+          "type": "u32",
+          "enum": "RelicIDDebuff",
+          "writable": true
+        },
+        "attr2": {
+          "offset": "+1c",
+          "type": "u32",
+          "enum": "RelicID",
+          "writable": true
+        },
+        "debuff2": {
+          "offset": "44",
+          "type": "u32",
+          "enum": "RelicIDDebuff",
+          "writable": true
+        },
+        "attr3": {
+          "offset": "+20",
+          "type": "u32",
+          "enum": "RelicID",
+          "writable": true
+        },
+        "debuff3": {
+          "offset": "48",
+          "type": "u32",
+          "enum": "RelicIDDebuff",
+          "writable": true
+        }
+      },
+      "address_expr": "csgaitem"
+    },
+    {
+      "index": 5,
+      "kind": "DoN",
+      "index_expr": "8+8*[Gaitem+10]",
+      "fields": {
+        "attr1": {
+          "offset": "+18",
+          "type": "u32",
+          "enum": "RelicID",
+          "writable": true
+        },
+        "debuff1": {
+          "offset": "40",
+          "type": "u32",
+          "enum": "RelicIDDebuff",
+          "writable": true
+        },
+        "attr2": {
+          "offset": "+1c",
+          "type": "u32",
+          "enum": "RelicID",
+          "writable": true
+        },
+        "debuff2": {
+          "offset": "44",
+          "type": "u32",
+          "enum": "RelicIDDebuff",
+          "writable": true
+        },
+        "attr3": {
+          "offset": "+20",
+          "type": "u32",
+          "enum": "RelicID",
+          "writable": true
+        },
+        "debuff3": {
+          "offset": "48",
+          "type": "u32",
+          "enum": "RelicIDDebuff",
+          "writable": true
+        }
+      },
+      "address_expr": "csgaitem"
+    },
+    {
+      "index": 6,
+      "kind": "DoN",
+      "index_expr": "8+8*[Gaitem+14]",
+      "fields": {
+        "attr1": {
+          "offset": "+18",
+          "type": "u32",
+          "enum": "RelicID",
+          "writable": true
+        },
+        "debuff1": {
+          "offset": "40",
+          "type": "u32",
+          "enum": "RelicIDDebuff",
+          "writable": true
+        },
+        "attr2": {
+          "offset": "+1c",
+          "type": "u32",
+          "enum": "RelicID",
+          "writable": true
+        },
+        "debuff2": {
+          "offset": "44",
+          "type": "u32",
+          "enum": "RelicIDDebuff",
+          "writable": true
+        },
+        "attr3": {
+          "offset": "+20",
+          "type": "u32",
+          "enum": "RelicID",
+          "writable": true
+        },
+        "debuff3": {
+          "offset": "48",
+          "type": "u32",
+          "enum": "RelicIDDebuff",
+          "writable": true
+        }
+      },
+      "address_expr": "csgaitem"
+    }
+  ]
+}

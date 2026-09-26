@@ -1,0 +1,14 @@
+# 黑环CE助手运行依赖
+# 界面：pywebview + Web 前端（0.7.0 起；此前是 PySide6，已移除）
+
+# 界面外壳（依赖系统 WebView2 运行时渲染）
+pywebview>=5.0
+
+# 内存读写
+pymem>=1.13
+
+# 打包
+pyinstaller>=6.0
+
+# 测试执行器（可选；run_tests.py 是零依赖的替代方案）
+pytest>=7.0

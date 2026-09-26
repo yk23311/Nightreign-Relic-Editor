@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<title>黑环CE助手</title>
+<link rel="stylesheet" href="app.css">
+</head>
+<body>
+<div class="busybar" id="busybar"></div>
+<div class="app">
+  <div class="topbar">
+    <span class="dot off" id="dot"></span>
+    <strong>黑环CE助手</strong>
+    <span class="hint" id="proc">nightreign.exe · 未附加</span>
+    <div class="spacer"></div>
+    <button id="btn-attach">附加进程</button>
+    <button id="btn-detach" disabled>分离</button>
+    <button id="btn-refresh" disabled>刷新列表</button>
+    <label class="switch" title="默认只读：不勾选才能写入"><input type="checkbox" id="ro" checked><span class="track"></span>只读预览</label>
+    <label class="switch adv" title="跳过全部校验，候选换成 CT 全量表"><input type="checkbox" id="adv"><span class="track"></span>高级模式</label>
+    <button id="btn-undo" disabled>撤销</button>
+    <button id="btn-redo" disabled>重做</button>
+    <button id="btn-paste" disabled title="把已复制槽位的词条写到选中的槽">粘贴到选中</button>
+    <button id="btn-backup" disabled>备份</button>
+    <button id="btn-restore" disabled title="从最近一次备份恢复">恢复备份</button>
+  </div>
+
+  <div class="body">
+    <div class="main">
+      <div id="emptystate" class="empty-state">
+        <h2>尚未读取遗物</h2>
+        <div id="emptymsg">请启动游戏并进入存档，然后点「附加进程」。</div>
+      </div>
+      <div id="mainwrap" style="display:none">
+        <div class="toolbar">
+          <input type="search" id="filter" placeholder="筛选词条名称 / ID…" style="width:280px">
+          <span class="hint" id="filterinfo"></span>
+          <div class="spacer"></div>
+          <span class="pill" id="pill-demo" style="display:none;border-color:rgba(227,179,65,.55);color:#ecc76a">演示模式（模拟数据）</span>
+          <span class="pill" id="pill-mode">安全模式</span>
+          <span class="pill" id="pill-sel">已选 0 个槽</span>
+        </div>
+        <div class="cards" id="cards"></div>
+      </div>
+    </div>
+
+    <div class="side right">
+      <div class="box fixed">
+        <div class="sec-title">待应用改动 <span class="badge ghost" id="chgn">0</span></div>
+        <div id="chglist" class="hint">（无）</div>
+        <div style="display:flex;gap:6px;margin-top:10px;flex:0 0 auto">
+          <button class="primary" id="btn-apply" style="flex:1 1 auto">应用到选中</button>
+          <button class="tiny" id="btn-clear">清空改动</button>
+        </div>
+      </div>
+      <div class="box" style="flex:1 1 auto; overflow:auto">
+        <div class="sec-title">规则校验 <span class="hint" id="valhint">（来自 Python 规则引擎）</span></div>
+        <div id="issues"></div>
+      </div>
+      <div class="box">
+        <div class="sec-title">预设</div>
+        <div style="display:flex;gap:6px">
+          <select id="preset" style="flex:1 1 auto"></select>
+          <button class="tiny" id="btn-preset-delete" title="删除该预设">删除</button>
+        </div>
+        <div style="display:flex;gap:6px;margin-top:6px">
+          <button class="tiny" id="btn-preset-apply" style="flex:1 1 auto">套用到选中的槽</button>
+          <button class="tiny" id="btn-preset-save">把选中存为预设</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="logdock" id="logdock"></div>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>

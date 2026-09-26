@@ -1,0 +1,236 @@
+[
+  {
+    "effect_id": -1,
+    "name": "(空)",
+    "roll_order": null,
+    "compatibility": "",
+    "req_debuff": "N",
+    "roll_group": "",
+    "raw": "-1:(空)"
+  },
+  {
+    "effect_id": -1,
+    "name": "--[诅咒]--",
+    "roll_order": null,
+    "compatibility": "",
+    "req_debuff": "N",
+    "roll_group": "",
+    "raw": "-1:--[诅咒]--"
+  },
+  {
+    "effect_id": 6820000,
+    "name": "受到损伤时，会累积中毒量表",
+    "roll_order": null,
+    "compatibility": "DON",
+    "req_debuff": "N",
+    "roll_group": "CURSE",
+    "raw": "6820000:roN/A|DoN|N|CURSE|受到损伤时，会累积中毒量表"
+  },
+  {
+    "effect_id": 6820100,
+    "name": "受到损伤时，会累积猩红腐败量表",
+    "roll_order": null,
+    "compatibility": "DON",
+    "req_debuff": "N",
+    "roll_group": "CURSE",
+    "raw": "6820100:roN/A|DoN|N|CURSE|受到损伤时，会累积猩红腐败量表"
+  },
+  {
+    "effect_id": 6820200,
+    "name": "受到损伤时，会累积冻伤量表",
+    "roll_order": null,
+    "compatibility": "DON",
+    "req_debuff": "N",
+    "roll_group": "CURSE",
+    "raw": "6820200:roN/A|DoN|N|CURSE|受到损伤时，会累积冻伤量表"
+  },
+  {
+    "effect_id": 6820300,
+    "name": "受到损伤时，会累积出血量表",
+    "roll_order": null,
+    "compatibility": "DON",
+    "req_debuff": "N",
+    "roll_group": "CURSE",
+    "raw": "6820300:roN/A|DoN|N|CURSE|受到损伤时，会累积出血量表"
+  },
+  {
+    "effect_id": 6820400,
+    "name": "受到损伤时，会累积发狂量表",
+    "roll_order": null,
+    "compatibility": "DON",
+    "req_debuff": "N",
+    "roll_group": "CURSE",
+    "raw": "6820400:roN/A|DoN|N|CURSE|受到损伤时，会累积发狂量表"
+  },
+  {
+    "effect_id": 6820500,
+    "name": "受到损伤时，会累积催眠量表",
+    "roll_order": null,
+    "compatibility": "DON",
+    "req_debuff": "N",
+    "roll_group": "CURSE",
+    "raw": "6820500:roN/A|DoN|N|CURSE|受到损伤时，会累积催眠量表"
+  },
+  {
+    "effect_id": 6820600,
+    "name": "受到损伤时，会累积死亡量表",
+    "roll_order": null,
+    "compatibility": "DON",
+    "req_debuff": "N",
+    "roll_group": "CURSE",
+    "raw": "6820600:roN/A|DoN|N|CURSE|受到损伤时，会累积死亡量表"
+  },
+  {
+    "effect_id": 6830000,
+    "name": "降低力气、智力",
+    "roll_order": null,
+    "compatibility": "DON",
+    "req_debuff": "N",
+    "roll_group": "CURSE",
+    "raw": "6830000:roN/A|DoN|N|CURSE|降低力气、智力"
+  },
+  {
+    "effect_id": 6830100,
+    "name": "降低灵巧、信仰",
+    "roll_order": null,
+    "compatibility": "DON",
+    "req_debuff": "N",
+    "roll_group": "CURSE",
+    "raw": "6830100:roN/A|DoN|N|CURSE|降低灵巧、信仰"
+  },
+  {
+    "effect_id": 6830200,
+    "name": "降低智力、灵巧",
+    "roll_order": null,
+    "compatibility": "DON",
+    "req_debuff": "N",
+    "roll_group": "CURSE",
+    "raw": "6830200:roN/A|DoN|N|CURSE|降低智力、灵巧"
+  },
+  {
+    "effect_id": 6830300,
+    "name": "降低信仰、力气",
+    "roll_order": null,
+    "compatibility": "DON",
+    "req_debuff": "N",
+    "roll_group": "CURSE",
+    "raw": "6830300:roN/A|DoN|N|CURSE|降低信仰、力气"
+  },
+  {
+    "effect_id": 6830400,
+    "name": "降低生命力、感应",
+    "roll_order": null,
+    "compatibility": "DON",
+    "req_debuff": "N",
+    "roll_group": "CURSE",
+    "raw": "6830400:roN/A|DoN|N|CURSE|降低生命力、感应"
+  },
+  {
+    "effect_id": 6840000,
+    "name": "减少获得的卢恩",
+    "roll_order": null,
+    "compatibility": "DON",
+    "req_debuff": "N",
+    "roll_group": "CURSE",
+    "raw": "6840000:roN/A|DoN|N|CURSE|减少获得的卢恩"
+  },
+  {
+    "effect_id": 6840100,
+    "name": "降低圣杯瓶恢复量",
+    "roll_order": null,
+    "compatibility": "DON",
+    "req_debuff": "N",
+    "roll_group": "CURSE",
+    "raw": "6840100:roN/A|DoN|N|CURSE|降低圣杯瓶恢复量"
+  },
+  {
+    "effect_id": 6840200,
+    "name": "降低绝招量表累积量",
+    "roll_order": null,
+    "compatibility": "DON",
+    "req_debuff": "N",
+    "roll_group": "CURSE",
+    "raw": "6840200:roN/A|DoN|N|CURSE|降低绝招量表累积量"
+  },
+  {
+    "effect_id": 6850200,
+    "name": "降低对所有异常状态的抵抗力",
+    "roll_order": null,
+    "compatibility": "DON",
+    "req_debuff": "N",
+    "roll_group": "CURSE",
+    "raw": "6850200:roN/A|DoN|N|CURSE|降低对所有异常状态的抵抗力"
+  },
+  {
+    "effect_id": 6850500,
+    "name": "持续减少血量",
+    "roll_order": null,
+    "compatibility": "DON",
+    "req_debuff": "N",
+    "roll_group": "CURSE",
+    "raw": "6850500:roN/A|DoN|N|CURSE|持续减少血量"
+  },
+  {
+    "effect_id": 6850700,
+    "name": "闪避后的当下，受伤时损伤加剧",
+    "roll_order": null,
+    "compatibility": "DON",
+    "req_debuff": "N",
+    "roll_group": "CURSE",
+    "raw": "6850700:roN/A|DoN|N|CURSE|闪避后的当下，受伤时损伤加剧"
+  },
+  {
+    "effect_id": 6850800,
+    "name": "连续闪避时，降低减伤率",
+    "roll_order": null,
+    "compatibility": "DON",
+    "req_debuff": "N",
+    "roll_group": "CURSE",
+    "raw": "6850800:roN/A|DoN|N|CURSE|连续闪避时，降低减伤率"
+  },
+  {
+    "effect_id": 6850900,
+    "name": "使用圣杯瓶时，降低减伤率",
+    "roll_order": null,
+    "compatibility": "DON",
+    "req_debuff": "N",
+    "roll_group": "CURSE",
+    "raw": "6850900:roN/A|DoN|N|CURSE|使用圣杯瓶时，降低减伤率"
+  },
+  {
+    "effect_id": 6851200,
+    "name": "血量没有全满时，降低攻击力",
+    "roll_order": null,
+    "compatibility": "DON",
+    "req_debuff": "N",
+    "roll_group": "CURSE",
+    "raw": "6851200:roN/A|DoN|N|CURSE|血量没有全满时，降低攻击力"
+  },
+  {
+    "effect_id": 6851300,
+    "name": "血量没有全满时，累积中毒量表",
+    "roll_order": null,
+    "compatibility": "DON",
+    "req_debuff": "N",
+    "roll_group": "CURSE",
+    "raw": "6851300:roN/A|DoN|N|CURSE|血量没有全满时，累积中毒量表"
+  },
+  {
+    "effect_id": 6851400,
+    "name": "血量没有全满时，累积猩红腐败量表",
+    "roll_order": null,
+    "compatibility": "DON",
+    "req_debuff": "N",
+    "roll_group": "CURSE",
+    "raw": "6851400:roN/A|DoN|N|CURSE|血量没有全满时，累积猩红腐败量表"
+  },
+  {
+    "effect_id": 6851700,
+    "name": "濒死时，降低血量上限",
+    "roll_order": null,
+    "compatibility": "DON",
+    "req_debuff": "N",
+    "roll_group": "CURSE",
+    "raw": "6851700:roN/A|DoN|N|CURSE|濒死时，降低血量上限"
+  }
+]

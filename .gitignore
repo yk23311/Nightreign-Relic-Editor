@@ -1,0 +1,62 @@
+# 黑环CE助手 / BlackRing CE Assistant —— 忽略规则
+# 合规声明：本项目仅供学习研究与离线/私人测试环境使用。
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.venv/
+.venv*/
+venv/
+env/
+
+# --- PyInstaller 构建中间产物 ---
+build/
+blackring_ce_assistant/spike_webview/build/
+blackring_ce_assistant/spike_webview/dist/
+blackring_ce_assistant/spike_webview/*.spec
+blackring_ce_assistant/spike_webview/spike.log
+*.manifest
+
+# --- 测试缓存与测试产物 ---
+.pytest_cache/
+pytest-cache-files-*/
+blackring_ce_assistant/data/_test_tmp/
+.coverage
+htmlcov/
+
+# --- 构建派生产物 ---
+# onedir 绿色文件夹有 350+ 个文件，可由源码 + spec 重建，不入库；
+# 一律不把二进制放进版本库（1.0.0 起仓库内不含任何 exe）。
+blackring_ce_assistant/dist/
+
+# --- 运行期产物 ---
+# 源码态写 data/logs；冻结态 exe 在自身旁边写 data/logs、data/presets、data/backups
+blackring_ce_assistant/data/logs/
+blackring_ce_assistant/dist/data/
+blackring_ce_assistant/dist/_*.txt
+
+# --- 第三方内容：一律不入库 ---
+# CT 表由使用者自备（tools_export_ct.py 需要它来重新导出 data/），
+# 它是第三方汉化作品，不随本项目分发。
+*.CT
+third_party/
+
+# --- CT 分析的一次性产物（可由 CT 重新生成；两份 .md 报告与解析脚本保留）---
+analysis/enable_script.txt
+analysis/script_*.txt
+analysis/enum_RelicID.json
+analysis/enum_RelicID_full.json
+analysis/enum_summary.json
+analysis/analyze_ce_lib.py
+
+# --- 旧 git 历史备份（1.0.0 对外发布时改用全新历史，旧历史留作安全网）---
+.git-history-backup/
+
+# --- 编辑器 / 系统 ---
+.vscode/
+.idea/
+*.swp
+Thumbs.db
+desktop.ini

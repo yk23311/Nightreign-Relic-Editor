@@ -1,0 +1,3125 @@
+[
+  {
+    "effect_id": -1,
+    "name": "(空)",
+    "roll_order": null,
+    "compatibility": "",
+    "req_debuff": "N",
+    "roll_group": "",
+    "raw": "-1:(空)"
+  },
+  {
+    "effect_id": -1,
+    "name": "--[攻击]--",
+    "roll_order": null,
+    "compatibility": "",
+    "req_debuff": "N",
+    "roll_group": "",
+    "raw": "-1:--[攻击]--"
+  },
+  {
+    "effect_id": 7001400,
+    "name": "提升物理攻击力",
+    "roll_order": 448,
+    "compatibility": "STD",
+    "req_debuff": "N",
+    "roll_group": "ATTACK",
+    "raw": "7001400:ro448|STD|N|ATTACK|提升物理攻击力"
+  },
+  {
+    "effect_id": 7001401,
+    "name": "提升物理攻击力 +１",
+    "roll_order": 449,
+    "compatibility": "STD",
+    "req_debuff": "N",
+    "roll_group": "ATTACK",
+    "raw": "7001401:ro449|STD|N|ATTACK|提升物理攻击力 +１"
+  },
+  {
+    "effect_id": 7001402,
+    "name": "提升物理攻击力 +２",
+    "roll_order": 450,
+    "compatibility": "BTH",
+    "req_debuff": "N",
+    "roll_group": "ATTACK",
+    "raw": "7001402:ro450|BTH|N|ATTACK|提升物理攻击力 +２"
+  },
+  {
+    "effect_id": 7001500,
+    "name": "提升魔力属性攻击力",
+    "roll_order": 451,
+    "compatibility": "STD",
+    "req_debuff": "N",
+    "roll_group": "ATTACK",
+    "raw": "7001500:ro451|STD|N|ATTACK|提升魔力属性攻击力"
+  },
+  {
+    "effect_id": 7001501,
+    "name": "提升魔力属性攻击力 +１",
+    "roll_order": 452,
+    "compatibility": "STD",
+    "req_debuff": "N",
+    "roll_group": "ATTACK",
+    "raw": "7001501:ro452|STD|N|ATTACK|提升魔力属性攻击力 +１"
+  },
+  {
+    "effect_id": 7001502,
+    "name": "提升魔力属性攻击力 +２",
+    "roll_order": 453,
+    "compatibility": "BTH",
+    "req_debuff": "N",
+    "roll_group": "ATTACK",
+    "raw": "7001502:ro453|BTH|N|ATTACK|提升魔力属性攻击力 +２"
+  },
+  {
+    "effect_id": 7001600,
+    "name": "提升火属性攻击力",
+    "roll_order": 454,
+    "compatibility": "STD",
+    "req_debuff": "N",
+    "roll_group": "ATTACK",
+    "raw": "7001600:ro454|STD|N|ATTACK|提升火属性攻击力"
+  },
+  {
+    "effect_id": 7001601,
+    "name": "提升火属性攻击力 +１",
+    "roll_order": 455,
+    "compatibility": "STD",
+    "req_debuff": "N",
+    "roll_group": "ATTACK",
+    "raw": "7001601:ro455|STD|N|ATTACK|提升火属性攻击力 +１"
+  },
+  {
+    "effect_id": 7001602,
+    "name": "提升火属性攻击力 +２",
+    "roll_order": 456,
+    "compatibility": "BTH",
+    "req_debuff": "N",
+    "roll_group": "ATTACK",
+    "raw": "7001602:ro456|BTH|N|ATTACK|提升火属性攻击力 +２"
+  },
+  {
+    "effect_id": 7001700,
+    "name": "提升雷属性攻击力",
+    "roll_order": 457,
+    "compatibility": "STD",
+    "req_debuff": "N",
+    "roll_group": "ATTACK",
+    "raw": "7001700:ro457|STD|N|ATTACK|提升雷属性攻击力"
+  },
+  {
+    "effect_id": 7001701,
+    "name": "提升雷属性攻击力 +１",
+    "roll_order": 458,
+    "compatibility": "STD",
+    "req_debuff": "N",
+    "roll_group": "ATTACK",
+    "raw": "7001701:ro458|STD|N|ATTACK|提升雷属性攻击力 +１"
+  },
+  {
+    "effect_id": 7001702,
+    "name": "提升雷属性攻击力 +２",
+    "roll_order": 459,
+    "compatibility": "BTH",
+    "req_debuff": "N",
+    "roll_group": "ATTACK",
+    "raw": "7001702:ro459|BTH|N|ATTACK|提升雷属性攻击力 +２"
+  },
+  {
+    "effect_id": 7001800,
+    "name": "提升圣属性攻击力",
+    "roll_order": 460,
+    "compatibility": "STD",
+    "req_debuff": "N",
+    "roll_group": "ATTACK",
+    "raw": "7001800:ro460|STD|N|ATTACK|提升圣属性攻击力"
+  },
+  {
+    "effect_id": 7001801,
+    "name": "提升圣属性攻击力 +１",
+    "roll_order": 461,
+    "compatibility": "STD",
+    "req_debuff": "N",
+    "roll_group": "ATTACK",
+    "raw": "7001801:ro461|STD|N|ATTACK|提升圣属性攻击力 +１"
+  },
+  {
+    "effect_id": 7001802,
+    "name": "提升圣属性攻击力 +２",
+    "roll_order": 462,
+    "compatibility": "BTH",
+    "req_debuff": "N",
+    "roll_group": "ATTACK",
+    "raw": "7001802:ro462|BTH|N|ATTACK|提升圣属性攻击力 +２"
+  },
+  {
+    "effect_id": 7006000,
+    "name": "提升双手共持时，造成失去平衡的能力",
+    "roll_order": 270,
+    "compatibility": "BTH",
+    "req_debuff": "N",
+    "roll_group": "ATTACK",
+    "raw": "7006000:ro270|BTH|N|ATTACK|提升双手共持时，造成失去平衡的能力"
+  },
+  {
+    "effect_id": 7006100,
+    "name": "提升双手各持时，造成失去平衡的能力",
+    "roll_order": 271,
+    "compatibility": "BTH",
+    "req_debuff": "N",
+    "roll_group": "ATTACK",
+    "raw": "7006100:ro271|BTH|N|ATTACK|提升双手各持时，造成失去平衡的能力"
+  },
+  {
+    "effect_id": 7030900,
+    "name": "涂抹油脂类道具时，能额外提升物理攻击力",
+    "roll_order": 279,
+    "compatibility": "BTH",
+    "req_debuff": "N",
+    "roll_group": "ATTACK",
+    "raw": "7030900:ro279|BTH|N|ATTACK|涂抹油脂类道具时，能额外提升物理攻击力"
+  },
+  {
+    "effect_id": 7032200,
+    "name": "受到攻击时，能提升攻击力",
+    "roll_order": 280,
+    "compatibility": "STD",
+    "req_debuff": "N",
+    "roll_group": "ATTACK",
+    "raw": "7032200:ro280|STD|N|ATTACK|受到攻击时，能提升攻击力"
+  },
+  {
+    "effect_id": 7040000,
+    "name": "强化轻攻击的第一记攻击",
+    "roll_order": 282,
+    "compatibility": "BTH",
+    "req_debuff": "N",
+    "roll_group": "ATTACK",
+    "raw": "7040000:ro282|BTH|N|ATTACK|强化轻攻击的第一记攻击"
+  },
+  {
+    "effect_id": 7040100,
+    "name": "强化防御反击",
+    "roll_order": 283,
+    "compatibility": "BTH",
+    "req_debuff": "N",
+    "roll_group": "ATTACK",
+    "raw": "7040100:ro283|BTH|N|ATTACK|强化防御反击"
+  },
+  {
+    "effect_id": 7040200,
+    "name": "强化致命一击",
+    "roll_order": 284,
+    "compatibility": "BTH",
+    "req_debuff": "N",
+    "roll_group": "ATTACK",
+    "raw": "7040200:ro284|BTH|N|ATTACK|强化致命一击"
+  },
+  {
+    "effect_id": 7043000,
+    "name": "强化咆哮与吐息",
+    "roll_order": 288,
+    "compatibility": "STD",
+    "req_debuff": "N",
+    "roll_group": "ATTACK",
+    "raw": "7043000:ro288|STD|N|ATTACK|强化咆哮与吐息"
+  },
+  {
+    "effect_id": 7060000,
+    "name": "每次打倒封印监牢里的囚犯，能提升攻击力",
+    "roll_order": 306,
+    "compatibility": "STD",
+    "req_debuff": "N",
+    "roll_group": "ATTACK",
+    "raw": "7060000:ro306|STD|N|ATTACK|每次打倒封印监牢里的囚犯，能提升攻击力"
+  },
+  {
+    "effect_id": 7060200,
+    "name": "每次打倒黑夜入侵者，能提升攻击力",
+    "roll_order": 308,
+    "compatibility": "STD",
+    "req_debuff": "N",
+    "roll_group": "ATTACK",
+    "raw": "7060200:ro308|STD|N|ATTACK|每次打倒黑夜入侵者，能提升攻击力"
+  },
+  {
+    "effect_id": 7080000,
+    "name": "装备三把以上类别为短剑的武器，能提升攻击力",
+    "roll_order": 70,
+    "compatibility": "BTH",
+    "req_debuff": "N",
+    "roll_group": "ATTACK",
+    "raw": "7080000:ro70|BTH|N|ATTACK|装备三把以上类别为短剑的武器，能提升攻击力"
+  },
+  {
+    "effect_id": 7080100,
+    "name": "装备三把以上类别为直剑的武器，能提升攻击力",
+    "roll_order": 71,
+    "compatibility": "BTH",
+    "req_debuff": "N",
+    "roll_group": "ATTACK",
+    "raw": "7080100:ro71|BTH|N|ATTACK|装备三把以上类别为直剑的武器，能提升攻击力"
+  },
+  {
+    "effect_id": 7080200,
+    "name": "装备三把以上类别为大剑的武器，能提升攻击力",
+    "roll_order": 72,
+    "compatibility": "BTH",
+    "req_debuff": "N",
+    "roll_group": "ATTACK",
+    "raw": "7080200:ro72|BTH|N|ATTACK|装备三把以上类别为大剑的武器，能提升攻击力"
+  },
+  {
+    "effect_id": 7080300,
+    "name": "装备三把以上类别为特大剑的武器，能提升攻击力",
+    "roll_order": 73,
+    "compatibility": "BTH",
+    "req_debuff": "N",
+    "roll_group": "ATTACK",
+    "raw": "7080300:ro73|BTH|N|ATTACK|装备三把以上类别为特大剑的武器，能提升攻击力"
+  },
+  {
+    "effect_id": 7080400,
+    "name": "装备三把以上类别为曲剑的武器，能提升攻击力",
+    "roll_order": 74,
+    "compatibility": "BTH",
+    "req_debuff": "N",
+    "roll_group": "ATTACK",
+    "raw": "7080400:ro74|BTH|N|ATTACK|装备三把以上类别为曲剑的武器，能提升攻击力"
+  },
+  {
+    "effect_id": 7080500,
+    "name": "装备三把以上类别为大曲剑的武器，能提升攻击力",
+    "roll_order": 75,
+    "compatibility": "BTH",
+    "req_debuff": "N",
+    "roll_group": "ATTACK",
+    "raw": "7080500:ro75|BTH|N|ATTACK|装备三把以上类别为大曲剑的武器，能提升攻击力"
+  },
+  {
+    "effect_id": 7080600,
+    "name": "装备三把以上类别为刀的武器，能提升攻击力",
+    "roll_order": 76,
+    "compatibility": "BTH",
+    "req_debuff": "N",
+    "roll_group": "ATTACK",
+    "raw": "7080600:ro76|BTH|N|ATTACK|装备三把以上类别为刀的武器，能提升攻击力"
+  },
+  {
+    "effect_id": 7080700,
+    "name": "装备三把以上类别为双头剑的武器，能提升攻击力",
+    "roll_order": 77,
+    "compatibility": "BTH",
+    "req_debuff": "N",
+    "roll_group": "ATTACK",
+    "raw": "7080700:ro77|BTH|N|ATTACK|装备三把以上类别为双头剑的武器，能提升攻击力"
+  },
+  {
+    "effect_id": 7080800,
+    "name": "装备三把以上类别为刺剑的武器，能提升攻击力",
+    "roll_order": 78,
+    "compatibility": "BTH",
+    "req_debuff": "N",
+    "roll_group": "ATTACK",
+    "raw": "7080800:ro78|BTH|N|ATTACK|装备三把以上类别为刺剑的武器，能提升攻击力"
+  },
+  {
+    "effect_id": 7080900,
+    "name": "装备三把以上类别为重刺剑的武器，能提升攻击力",
+    "roll_order": 79,
+    "compatibility": "BTH",
+    "req_debuff": "N",
+    "roll_group": "ATTACK",
+    "raw": "7080900:ro79|BTH|N|ATTACK|装备三把以上类别为重刺剑的武器，能提升攻击力"
+  },
+  {
+    "effect_id": 7081000,
+    "name": "装备三把以上类别为斧的武器，能提升攻击力",
+    "roll_order": 80,
+    "compatibility": "BTH",
+    "req_debuff": "N",
+    "roll_group": "ATTACK",
+    "raw": "7081000:ro80|BTH|N|ATTACK|装备三把以上类别为斧的武器，能提升攻击力"
+  },
+  {
+    "effect_id": 7081100,
+    "name": "装备三把以上类别为大斧的武器，能提升攻击力",
+    "roll_order": 81,
+    "compatibility": "BTH",
+    "req_debuff": "N",
+    "roll_group": "ATTACK",
+    "raw": "7081100:ro81|BTH|N|ATTACK|装备三把以上类别为大斧的武器，能提升攻击力"
+  },
+  {
+    "effect_id": 7081200,
+    "name": "装备三把以上类别为槌的武器，能提升攻击力",
+    "roll_order": 82,
+    "compatibility": "BTH",
+    "req_debuff": "N",
+    "roll_group": "ATTACK",
+    "raw": "7081200:ro82|BTH|N|ATTACK|装备三把以上类别为槌的武器，能提升攻击力"
+  },
+  {
+    "effect_id": 7081300,
+    "name": "装备三把以上类别为大槌的武器，能提升攻击力",
+    "roll_order": 83,
+    "compatibility": "BTH",
+    "req_debuff": "N",
+    "roll_group": "ATTACK",
+    "raw": "7081300:ro83|BTH|N|ATTACK|装备三把以上类别为大槌的武器，能提升攻击力"
+  },
+  {
+    "effect_id": 7081400,
+    "name": "装备三把以上类别为连枷的武器，能提升攻击力",
+    "roll_order": 84,
+    "compatibility": "BTH",
+    "req_debuff": "N",
+    "roll_group": "ATTACK",
+    "raw": "7081400:ro84|BTH|N|ATTACK|装备三把以上类别为连枷的武器，能提升攻击力"
+  },
+  {
+    "effect_id": 7081500,
+    "name": "装备三把以上类别为矛的武器，能提升攻击力",
+    "roll_order": 85,
+    "compatibility": "BTH",
+    "req_debuff": "N",
+    "roll_group": "ATTACK",
+    "raw": "7081500:ro85|BTH|N|ATTACK|装备三把以上类别为矛的武器，能提升攻击力"
+  },
+  {
+    "effect_id": 7081700,
+    "name": "装备三把以上类别为大矛的武器，能提升攻击力",
+    "roll_order": 86,
+    "compatibility": "BTH",
+    "req_debuff": "N",
+    "roll_group": "ATTACK",
+    "raw": "7081700:ro86|BTH|N|ATTACK|装备三把以上类别为大矛的武器，能提升攻击力"
+  },
+  {
+    "effect_id": 7081800,
+    "name": "装备三把以上类别为戟的武器，能提升攻击力",
+    "roll_order": 87,
+    "compatibility": "BTH",
+    "req_debuff": "N",
+    "roll_group": "ATTACK",
+    "raw": "7081800:ro87|BTH|N|ATTACK|装备三把以上类别为戟的武器，能提升攻击力"
+  },
+  {
+    "effect_id": 7081900,
+    "name": "装备三把以上类别为镰刀的武器，能提升攻击力",
+    "roll_order": 88,
+    "compatibility": "BTH",
+    "req_debuff": "N",
+    "roll_group": "ATTACK",
+    "raw": "7081900:ro88|BTH|N|ATTACK|装备三把以上类别为镰刀的武器，能提升攻击力"
+  },
+  {
+    "effect_id": 7082000,
+    "name": "装备三把以上类别为拳头的武器，能提升攻击力",
+    "roll_order": 89,
+    "compatibility": "BTH",
+    "req_debuff": "N",
+    "roll_group": "ATTACK",
+    "raw": "7082000:ro89|BTH|N|ATTACK|装备三把以上类别为拳头的武器，能提升攻击力"
+  },
+  {
+    "effect_id": 7082100,
+    "name": "装备三把以上类别为钩爪的武器，能提升攻击力",
+    "roll_order": 90,
+    "compatibility": "BTH",
+    "req_debuff": "N",
+    "roll_group": "ATTACK",
+    "raw": "7082100:ro90|BTH|N|ATTACK|装备三把以上类别为钩爪的武器，能提升攻击力"
+  },
+  {
+    "effect_id": 7082200,
+    "name": "装备三把以上类别为软鞭的武器，能提升攻击力",
+    "roll_order": 91,
+    "compatibility": "BTH",
+    "req_debuff": "N",
+    "roll_group": "ATTACK",
+    "raw": "7082200:ro91|BTH|N|ATTACK|装备三把以上类别为软鞭的武器，能提升攻击力"
+  },
+  {
+    "effect_id": 7082300,
+    "name": "装备三把以上类别为特大武器的武器，能提升攻击力",
+    "roll_order": 92,
+    "compatibility": "BTH",
+    "req_debuff": "N",
+    "roll_group": "ATTACK",
+    "raw": "7082300:ro92|BTH|N|ATTACK|装备三把以上类别为特大武器的武器，能提升攻击力"
+  },
+  {
+    "effect_id": 7082400,
+    "name": "装备三把以上类别为弓的武器，能提升攻击力",
+    "roll_order": 93,
+    "compatibility": "BTH",
+    "req_debuff": "N",
+    "roll_group": "ATTACK",
+    "raw": "7082400:ro93|BTH|N|ATTACK|装备三把以上类别为弓的武器，能提升攻击力"
+  },
+  {
+    "effect_id": 7150000,
+    "name": "防御反击成功时，能依照自己目前的血量提升伤害",
+    "roll_order": 360,
+    "compatibility": "BTH",
+    "req_debuff": "N",
+    "roll_group": "ATTACK",
+    "raw": "7150000:ro360|BTH|N|ATTACK|防御反击成功时，能依照自己目前的血量提升伤害"
+  },
+  {
+    "effect_id": 7330000,
+    "name": "提升短剑的攻击力",
+    "roll_order": 99,
+    "compatibility": "BTH",
+    "req_debuff": "N",
+    "roll_group": "ATTACK",
+    "raw": "7330000:ro99|BTH|N|ATTACK|提升短剑的攻击力"
+  },
+  {
+    "effect_id": 7330100,
+    "name": "提升直剑的攻击力",
+    "roll_order": 100,
+    "compatibility": "BTH",
+    "req_debuff": "N",
+    "roll_group": "ATTACK",
+    "raw": "7330100:ro100|BTH|N|ATTACK|提升直剑的攻击力"
+  },
+  {
+    "effect_id": 7330200,
+    "name": "提升大剑的攻击力",
+    "roll_order": 101,
+    "compatibility": "BTH",
+    "req_debuff": "N",
+    "roll_group": "ATTACK",
+    "raw": "7330200:ro101|BTH|N|ATTACK|提升大剑的攻击力"
+  },
+  {
+    "effect_id": 7330300,
+    "name": "提升特大剑的攻击力",
+    "roll_order": 102,
+    "compatibility": "BTH",
+    "req_debuff": "N",
+    "roll_group": "ATTACK",
+    "raw": "7330300:ro102|BTH|N|ATTACK|提升特大剑的攻击力"
+  },
+  {
+    "effect_id": 7330400,
+    "name": "提升曲剑的攻击力",
+    "roll_order": 103,
+    "compatibility": "BTH",
+    "req_debuff": "N",
+    "roll_group": "ATTACK",
+    "raw": "7330400:ro103|BTH|N|ATTACK|提升曲剑的攻击力"
+  },
+  {
+    "effect_id": 7330500,
+    "name": "提升大曲剑的攻击力",
+    "roll_order": 104,
+    "compatibility": "BTH",
+    "req_debuff": "N",
+    "roll_group": "ATTACK",
+    "raw": "7330500:ro104|BTH|N|ATTACK|提升大曲剑的攻击力"
+  },
+  {
+    "effect_id": 7330600,
+    "name": "提升刀的攻击力",
+    "roll_order": 105,
+    "compatibility": "BTH",
+    "req_debuff": "N",
+    "roll_group": "ATTACK",
+    "raw": "7330600:ro105|BTH|N|ATTACK|提升刀的攻击力"
+  },
+  {
+    "effect_id": 7330700,
+    "name": "提升双头剑的攻击力",
+    "roll_order": 106,
+    "compatibility": "BTH",
+    "req_debuff": "N",
+    "roll_group": "ATTACK",
+    "raw": "7330700:ro106|BTH|N|ATTACK|提升双头剑的攻击力"
+  },
+  {
+    "effect_id": 7330800,
+    "name": "提升刺剑的攻击力",
+    "roll_order": 107,
+    "compatibility": "BTH",
+    "req_debuff": "N",
+    "roll_group": "ATTACK",
+    "raw": "7330800:ro107|BTH|N|ATTACK|提升刺剑的攻击力"
+  },
+  {
+    "effect_id": 7330900,
+    "name": "提升重刺剑的攻击力",
+    "roll_order": 108,
+    "compatibility": "BTH",
+    "req_debuff": "N",
+    "roll_group": "ATTACK",
+    "raw": "7330900:ro108|BTH|N|ATTACK|提升重刺剑的攻击力"
+  },
+  {
+    "effect_id": 7331000,
+    "name": "提升斧的攻击力",
+    "roll_order": 109,
+    "compatibility": "BTH",
+    "req_debuff": "N",
+    "roll_group": "ATTACK",
+    "raw": "7331000:ro109|BTH|N|ATTACK|提升斧的攻击力"
+  },
+  {
+    "effect_id": 7331100,
+    "name": "提升大斧的攻击力",
+    "roll_order": 110,
+    "compatibility": "BTH",
+    "req_debuff": "N",
+    "roll_group": "ATTACK",
+    "raw": "7331100:ro110|BTH|N|ATTACK|提升大斧的攻击力"
+  },
+  {
+    "effect_id": 7331200,
+    "name": "提升槌的攻击力",
+    "roll_order": 111,
+    "compatibility": "BTH",
+    "req_debuff": "N",
+    "roll_group": "ATTACK",
+    "raw": "7331200:ro111|BTH|N|ATTACK|提升槌的攻击力"
+  },
+  {
+    "effect_id": 7331300,
+    "name": "提升大槌的攻击力",
+    "roll_order": 112,
+    "compatibility": "BTH",
+    "req_debuff": "N",
+    "roll_group": "ATTACK",
+    "raw": "7331300:ro112|BTH|N|ATTACK|提升大槌的攻击力"
+  },
+  {
+    "effect_id": 7331400,
+    "name": "提升连枷的攻击力",
+    "roll_order": 113,
+    "compatibility": "BTH",
+    "req_debuff": "N",
+    "roll_group": "ATTACK",
+    "raw": "7331400:ro113|BTH|N|ATTACK|提升连枷的攻击力"
+  },
+  {
+    "effect_id": 7331500,
+    "name": "提升矛的攻击力",
+    "roll_order": 114,
+    "compatibility": "BTH",
+    "req_debuff": "N",
+    "roll_group": "ATTACK",
+    "raw": "7331500:ro114|BTH|N|ATTACK|提升矛的攻击力"
+  },
+  {
+    "effect_id": 7331700,
+    "name": "提升大矛的攻击力",
+    "roll_order": 115,
+    "compatibility": "BTH",
+    "req_debuff": "N",
+    "roll_group": "ATTACK",
+    "raw": "7331700:ro115|BTH|N|ATTACK|提升大矛的攻击力"
+  },
+  {
+    "effect_id": 7331800,
+    "name": "提升戟的攻击力",
+    "roll_order": 116,
+    "compatibility": "BTH",
+    "req_debuff": "N",
+    "roll_group": "ATTACK",
+    "raw": "7331800:ro116|BTH|N|ATTACK|提升戟的攻击力"
+  },
+  {
+    "effect_id": 7331900,
+    "name": "提升镰刀的攻击力",
+    "roll_order": 117,
+    "compatibility": "BTH",
+    "req_debuff": "N",
+    "roll_group": "ATTACK",
+    "raw": "7331900:ro117|BTH|N|ATTACK|提升镰刀的攻击力"
+  },
+  {
+    "effect_id": 7332000,
+    "name": "提升拳头的攻击力",
+    "roll_order": 118,
+    "compatibility": "BTH",
+    "req_debuff": "N",
+    "roll_group": "ATTACK",
+    "raw": "7332000:ro118|BTH|N|ATTACK|提升拳头的攻击力"
+  },
+  {
+    "effect_id": 7332100,
+    "name": "提升钩爪的攻击力",
+    "roll_order": 119,
+    "compatibility": "BTH",
+    "req_debuff": "N",
+    "roll_group": "ATTACK",
+    "raw": "7332100:ro119|BTH|N|ATTACK|提升钩爪的攻击力"
+  },
+  {
+    "effect_id": 7332200,
+    "name": "提升软鞭的攻击力",
+    "roll_order": 120,
+    "compatibility": "BTH",
+    "req_debuff": "N",
+    "roll_group": "ATTACK",
+    "raw": "7332200:ro120|BTH|N|ATTACK|提升软鞭的攻击力"
+  },
+  {
+    "effect_id": 7332300,
+    "name": "提升特大武器的攻击力",
+    "roll_order": 121,
+    "compatibility": "BTH",
+    "req_debuff": "N",
+    "roll_group": "ATTACK",
+    "raw": "7332300:ro121|BTH|N|ATTACK|提升特大武器的攻击力"
+  },
+  {
+    "effect_id": 7332400,
+    "name": "提升弓的攻击力",
+    "roll_order": 122,
+    "compatibility": "BTH",
+    "req_debuff": "N",
+    "roll_group": "ATTACK",
+    "raw": "7332400:ro122|BTH|N|ATTACK|提升弓的攻击力"
+  },
+  {
+    "effect_id": 7260400,
+    "name": "对陷入冻伤的敌人，能强化攻击",
+    "roll_order": 366,
+    "compatibility": "BTH",
+    "req_debuff": "N",
+    "roll_group": "FROST_UP",
+    "raw": "7260400:ro366|BTH|N|FROST_UP|对陷入冻伤的敌人，能强化攻击"
+  },
+  {
+    "effect_id": 7082500,
+    "name": "装备三把以上类别为手杖的武器，能提升专注值上限",
+    "roll_order": 94,
+    "compatibility": "BTH",
+    "req_debuff": "N",
+    "roll_group": "MAG_3+",
+    "raw": "7082500:ro94|BTH|N|MAG_3+|装备三把以上类别为手杖的武器，能提升专注值上限"
+  },
+  {
+    "effect_id": 7082600,
+    "name": "装备三把以上类别为圣印记的武器，能提升专注值上限",
+    "roll_order": 95,
+    "compatibility": "BTH",
+    "req_debuff": "N",
+    "roll_group": "MAG_3+",
+    "raw": "7082600:ro95|BTH|N|MAG_3+|装备三把以上类别为圣印记的武器，能提升专注值上限"
+  },
+  {
+    "effect_id": 7260000,
+    "name": "对陷入中毒的敌人，能强化攻击",
+    "roll_order": 364,
+    "compatibility": "BTH",
+    "req_debuff": "N",
+    "roll_group": "POISON_UP",
+    "raw": "7260000:ro364|BTH|N|POISON_UP|对陷入中毒的敌人，能强化攻击"
+  },
+  {
+    "effect_id": 7260300,
+    "name": "对陷入猩红腐败的敌人，能强化攻击",
+    "roll_order": 365,
+    "compatibility": "BTH",
+    "req_debuff": "N",
+    "roll_group": "POISON_UP",
+    "raw": "7260300:ro365|BTH|N|POISON_UP|对陷入猩红腐败的敌人，能强化攻击"
+  },
+  {
+    "effect_id": 7082700,
+    "name": "装备三把以上类别为小盾的武器，能提升血量上限",
+    "roll_order": 96,
+    "compatibility": "BTH",
+    "req_debuff": "N",
+    "roll_group": "SHLD_3+",
+    "raw": "7082700:ro96|BTH|N|SHLD_3+|装备三把以上类别为小盾的武器，能提升血量上限"
+  },
+  {
+    "effect_id": 7082800,
+    "name": "装备三把以上类别为中盾的武器，能提升血量上限",
+    "roll_order": 97,
+    "compatibility": "BTH",
+    "req_debuff": "N",
+    "roll_group": "SHLD_3+",
+    "raw": "7082800:ro97|BTH|N|SHLD_3+|装备三把以上类别为中盾的武器，能提升血量上限"
+  },
+  {
+    "effect_id": 7082900,
+    "name": "装备三把以上类别为大盾的武器，能提升血量上限",
+    "roll_order": 98,
+    "compatibility": "BTH",
+    "req_debuff": "N",
+    "roll_group": "SHLD_3+",
+    "raw": "7082900:ro98|BTH|N|SHLD_3+|装备三把以上类别为大盾的武器，能提升血量上限"
+  },
+  {
+    "effect_id": -1,
+    "name": "--[角色]--",
+    "roll_order": null,
+    "compatibility": "",
+    "req_debuff": "N",
+    "roll_group": "",
+    "raw": "-1:--[角色]--"
+  },
+  {
+    "effect_id": 7010500,
+    "name": "【追踪者】发动绝招时，能燃起火焰、蔓延周围",
+    "roll_order": 31,
+    "compatibility": "STD",
+    "req_debuff": "N",
+    "roll_group": "CHARACTER",
+    "raw": "7010500:ro31|STD|N|CHARACTER|【追踪者】发动绝招时，能燃起火焰、蔓延周围"
+  },
+  {
+    "effect_id": 7010700,
+    "name": "【女爵】以短剑使出连续攻击时，能对着周围的敌人，再次上演最近做过的行动",
+    "roll_order": 32,
+    "compatibility": "STD",
+    "req_debuff": "N",
+    "roll_group": "CHARACTER",
+    "raw": "7010700:ro32|STD|N|CHARACTER|【女爵】以短剑使出连续攻击时，能对着周围的敌人，再次上演最近做过的行动"
+  },
+  {
+    "effect_id": 7010900,
+    "name": "【复仇者】发动绝招时，能以自己的血量为代价完全恢复我方人物的血量",
+    "roll_order": 33,
+    "compatibility": "STD",
+    "req_debuff": "N",
+    "roll_group": "CHARACTER",
+    "raw": "7010900:ro33|STD|N|CHARACTER|【复仇者】发动绝招时，能以自己的血量为代价完全恢复我方人物的血量"
+  },
+  {
+    "effect_id": 7011000,
+    "name": "【守护者】延长技艺的有效时间",
+    "roll_order": 34,
+    "compatibility": "STD",
+    "req_debuff": "N",
+    "roll_group": "CHARACTER",
+    "raw": "7011000:ro34|STD|N|CHARACTER|【守护者】延长技艺的有效时间"
+  },
+  {
+    "effect_id": 7011200,
+    "name": "【复仇者】发动绝招时，能引发灵火爆炸",
+    "roll_order": 35,
+    "compatibility": "STD",
+    "req_debuff": "N",
+    "roll_group": "CHARACTER",
+    "raw": "7011200:ro35|STD|N|CHARACTER|【复仇者】发动绝招时，能引发灵火爆炸"
+  },
+  {
+    "effect_id": 7011600,
+    "name": "【守护者】以戟蓄力攻击时，能引发旋风",
+    "roll_order": 36,
+    "compatibility": "STD",
+    "req_debuff": "N",
+    "roll_group": "CHARACTER",
+    "raw": "7011600:ro36|STD|N|CHARACTER|【守护者】以戟蓄力攻击时，能引发旋风"
+  },
+  {
+    "effect_id": 7011700,
+    "name": "【执行者】在绝招发动期间，能以咆哮恢复血量",
+    "roll_order": 37,
+    "compatibility": "STD",
+    "req_debuff": "N",
+    "roll_group": "CHARACTER",
+    "raw": "7011700:ro37|STD|N|CHARACTER|【执行者】在绝招发动期间，能以咆哮恢复血量"
+  },
+  {
+    "effect_id": 7012000,
+    "name": "【守护者】发动绝招时，能缓慢恢复周围我方人物的血量",
+    "roll_order": 38,
+    "compatibility": "STD",
+    "req_debuff": "N",
+    "roll_group": "CHARACTER",
+    "raw": "7012000:ro38|STD|N|CHARACTER|【守护者】发动绝招时，能缓慢恢复周围我方人物的血量"
+  },
+  {
+    "effect_id": 7020000,
+    "name": "【追踪者】发动技艺时，轻攻击能使出缠绕火焰的追加攻击（仅限大剑）",
+    "roll_order": 39,
+    "compatibility": "STD",
+    "req_debuff": "N",
+    "roll_group": "CHARACTER",
+    "raw": "7020000:ro39|STD|N|CHARACTER|【追踪者】发动技艺时，轻攻击能使出缠绕火焰的追加攻击（仅限大剑）"
+  },
+  {
+    "effect_id": 7030000,
+    "name": "身在图腾碑石周围时，能提升强韧度",
+    "roll_order": 40,
+    "compatibility": "STD",
+    "req_debuff": "N",
+    "roll_group": "CHARACTER",
+    "raw": "7030000:ro40|STD|N|CHARACTER|身在图腾碑石周围时，能提升强韧度"
+  },
+  {
+    "effect_id": 7031200,
+    "name": "【复仇者】发动绝招时，能强化家人与我方人物",
+    "roll_order": 41,
+    "compatibility": "STD",
+    "req_debuff": "N",
+    "roll_group": "CHARACTER",
+    "raw": "7031200:ro41|STD|N|CHARACTER|【复仇者】发动绝招时，能强化家人与我方人物"
+  },
+  {
+    "effect_id": 7031300,
+    "name": "【无赖】在技艺发动期间，受到攻击时能提升攻击力与精力上限",
+    "roll_order": 42,
+    "compatibility": "STD",
+    "req_debuff": "N",
+    "roll_group": "CHARACTER",
+    "raw": "7031300:ro42|STD|N|CHARACTER|【无赖】在技艺发动期间，受到攻击时能提升攻击力与精力上限"
+  },
+  {
+    "effect_id": 7031800,
+    "name": "【女爵】从背后使出致命一击后，自己的身影会变得难以辨识，并消除脚步声",
+    "roll_order": 43,
+    "compatibility": "STD",
+    "req_debuff": "N",
+    "roll_group": "CHARACTER",
+    "raw": "7031800:ro43|STD|N|CHARACTER|【女爵】从背后使出致命一击后，自己的身影会变得难以辨识，并消除脚步声"
+  },
+  {
+    "effect_id": 7032400,
+    "name": "【追踪者】发动能力时，能累积绝招量表",
+    "roll_order": 44,
+    "compatibility": "STD",
+    "req_debuff": "N",
+    "roll_group": "CHARACTER",
+    "raw": "7032400:ro44|STD|N|CHARACTER|【追踪者】发动能力时，能累积绝招量表"
+  },
+  {
+    "effect_id": 7032700,
+    "name": "【女爵】在绝招发动期间，打倒敌人时能提升攻击力",
+    "roll_order": 45,
+    "compatibility": "STD",
+    "req_debuff": "N",
+    "roll_group": "CHARACTER",
+    "raw": "7032700:ro45|STD|N|CHARACTER|【女爵】在绝招发动期间，打倒敌人时能提升攻击力"
+  },
+  {
+    "effect_id": 7032800,
+    "name": "【隐士】收集属性痕时，能触发“魔法之境”",
+    "roll_order": 46,
+    "compatibility": "STD",
+    "req_debuff": "N",
+    "roll_group": "CHARACTER",
+    "raw": "7032800:ro46|STD|N|CHARACTER|【隐士】收集属性痕时，能触发“魔法之境”"
+  },
+  {
+    "effect_id": 7032900,
+    "name": "【隐士】发动绝招时，自己陷入异常状态出血，提升攻击力",
+    "roll_order": 47,
+    "compatibility": "STD",
+    "req_debuff": "N",
+    "roll_group": "CHARACTER",
+    "raw": "7032900:ro47|STD|N|CHARACTER|【隐士】发动绝招时，自己陷入异常状态出血，提升攻击力"
+  },
+  {
+    "effect_id": 7033200,
+    "name": "【追踪者】技艺的使用次数+１",
+    "roll_order": 48,
+    "compatibility": "STD",
+    "req_debuff": "N",
+    "roll_group": "CHARACTER",
+    "raw": "7033200:ro48|STD|N|CHARACTER|【追踪者】技艺的使用次数+１"
+  },
+  {
+    "effect_id": 7033400,
+    "name": "【守护者】在能力发动期间，防御成功时能形成冲击波",
+    "roll_order": 49,
+    "compatibility": "STD",
+    "req_debuff": "N",
+    "roll_group": "CHARACTER",
+    "raw": "7033400:ro49|STD|N|CHARACTER|【守护者】在能力发动期间，防御成功时能形成冲击波"
+  },
+  {
+    "effect_id": 7034100,
+    "name": "【隐士】发动绝招时，能提升血量上限",
+    "roll_order": 50,
+    "compatibility": "STD",
+    "req_debuff": "N",
+    "roll_group": "CHARACTER",
+    "raw": "7034100:ro50|STD|N|CHARACTER|【隐士】发动绝招时，能提升血量上限"
+  },
+  {
+    "effect_id": 7034400,
+    "name": "【执行者】提升技艺发动期间的攻击力，但攻击时会降低减伤率",
+    "roll_order": 51,
+    "compatibility": "STD",
+    "req_debuff": "N",
+    "roll_group": "CHARACTER",
+    "raw": "7034400:ro51|STD|N|CHARACTER|【执行者】提升技艺发动期间的攻击力，但攻击时会降低减伤率"
+  },
+  {
+    "effect_id": 7034500,
+    "name": "【执行者】在技艺发动期间，妖刀进入解放状态时，能恢复血量",
+    "roll_order": 52,
+    "compatibility": "STD",
+    "req_debuff": "N",
+    "roll_group": "CHARACTER",
+    "raw": "7034500:ro52|STD|N|CHARACTER|【执行者】在技艺发动期间，妖刀进入解放状态时，能恢复血量"
+  },
+  {
+    "effect_id": 7034600,
+    "name": "【铁之眼】蓄力发动绝招时，附加异常状态中毒",
+    "roll_order": 53,
+    "compatibility": "STD",
+    "req_debuff": "N",
+    "roll_group": "CHARACTER",
+    "raw": "7034600:ro53|STD|N|CHARACTER|【铁之眼】蓄力发动绝招时，附加异常状态中毒"
+  },
+  {
+    "effect_id": 7034700,
+    "name": "【铁之眼】发动绝招后，强化突刺反击",
+    "roll_order": 54,
+    "compatibility": "STD",
+    "req_debuff": "N",
+    "roll_group": "CHARACTER",
+    "raw": "7034700:ro54|STD|N|CHARACTER|【铁之眼】发动绝招后，强化突刺反击"
+  },
+  {
+    "effect_id": 7036200,
+    "name": "【学者】减缓技艺进行率的下降幅度",
+    "roll_order": 56,
+    "compatibility": "STD",
+    "req_debuff": "N",
+    "roll_group": "CHARACTER",
+    "raw": "7036200:ro56|STD|N|CHARACTER|【学者】减缓技艺进行率的下降幅度"
+  },
+  {
+    "effect_id": 7036300,
+    "name": "【学者】使用技艺时，提升目标我方人物的攻击力",
+    "roll_order": 57,
+    "compatibility": "STD",
+    "req_debuff": "N",
+    "roll_group": "CHARACTER",
+    "raw": "7036300:ro57|STD|N|CHARACTER|【学者】使用技艺时，提升目标我方人物的攻击力"
+  },
+  {
+    "effect_id": 7036400,
+    "name": "【学者】对上已用绝招连结的敌人，持续给予伤害",
+    "roll_order": 58,
+    "compatibility": "STD",
+    "req_debuff": "N",
+    "roll_group": "CHARACTER",
+    "raw": "7036400:ro58|STD|N|CHARACTER|【学者】对上已用绝招连结的敌人，持续给予伤害"
+  },
+  {
+    "effect_id": 7036500,
+    "name": "【学者】每次使用技艺增加样本，能获得卢恩",
+    "roll_order": 59,
+    "compatibility": "STD",
+    "req_debuff": "N",
+    "roll_group": "CHARACTER",
+    "raw": "7036500:ro59|STD|N|CHARACTER|【学者】每次使用技艺增加样本，能获得卢恩"
+  },
+  {
+    "effect_id": 7036800,
+    "name": "【送葬者】发动绝招时，提升攻击力",
+    "roll_order": 60,
+    "compatibility": "STD",
+    "req_debuff": "N",
+    "roll_group": "CHARACTER",
+    "raw": "7036800:ro60|STD|N|CHARACTER|【送葬者】发动绝招时，提升攻击力"
+  },
+  {
+    "effect_id": 7036900,
+    "name": "【送葬者】连击的最后攻击命中时，提升攻击力",
+    "roll_order": 61,
+    "compatibility": "STD",
+    "req_debuff": "N",
+    "roll_group": "CHARACTER",
+    "raw": "7036900:ro61|STD|N|CHARACTER|【送葬者】连击的最后攻击命中时，提升攻击力"
+  },
+  {
+    "effect_id": 7037000,
+    "name": "【送葬者】使用祷告将辅助效果附加在自己身上时，提升物理攻击力",
+    "roll_order": 62,
+    "compatibility": "STD",
+    "req_debuff": "N",
+    "roll_group": "CHARACTER",
+    "raw": "7037000:ro62|STD|N|CHARACTER|【送葬者】使用祷告将辅助效果附加在自己身上时，提升物理攻击力"
+  },
+  {
+    "effect_id": 7037300,
+    "name": "【送葬者】发动绝招时，恢复触碰到的我方人物的血量",
+    "roll_order": 63,
+    "compatibility": "STD",
+    "req_debuff": "N",
+    "roll_group": "CHARACTER",
+    "raw": "7037300:ro63|STD|N|CHARACTER|【送葬者】发动绝招时，恢复触碰到的我方人物的血量"
+  },
+  {
+    "effect_id": 7090300,
+    "name": "在图腾碑石周围打倒敌人时，能恢复血量",
+    "roll_order": 64,
+    "compatibility": "STD",
+    "req_debuff": "N",
+    "roll_group": "CHARACTER",
+    "raw": "7090300:ro64|STD|N|CHARACTER|在图腾碑石周围打倒敌人时，能恢复血量"
+  },
+  {
+    "effect_id": 7220000,
+    "name": "【复仇者】与家人并肩战斗期间，能强化自身",
+    "roll_order": 65,
+    "compatibility": "STD",
+    "req_debuff": "N",
+    "roll_group": "CHARACTER",
+    "raw": "7220000:ro65|STD|N|CHARACTER|【复仇者】与家人并肩战斗期间，能强化自身"
+  },
+  {
+    "effect_id": 7270100,
+    "name": "【铁之眼】技艺的使用次数+１",
+    "roll_order": 66,
+    "compatibility": "STD",
+    "req_debuff": "N",
+    "roll_group": "CHARACTER",
+    "raw": "7270100:ro66|STD|N|CHARACTER|【铁之眼】技艺的使用次数+１"
+  },
+  {
+    "effect_id": 7280000,
+    "name": "【铁之眼】延长弱点显露的时间",
+    "roll_order": 67,
+    "compatibility": "STD",
+    "req_debuff": "N",
+    "roll_group": "CHARACTER",
+    "raw": "7280000:ro67|STD|N|CHARACTER|【铁之眼】延长弱点显露的时间"
+  },
+  {
+    "effect_id": 7290000,
+    "name": "【女爵】提升技艺造成的伤害",
+    "roll_order": 68,
+    "compatibility": "STD",
+    "req_debuff": "N",
+    "roll_group": "CHARACTER",
+    "raw": "7290000:ro68|STD|N|CHARACTER|【女爵】提升技艺造成的伤害"
+  },
+  {
+    "effect_id": 7310000,
+    "name": "【无赖】延长绝招的有效时间",
+    "roll_order": 69,
+    "compatibility": "STD",
+    "req_debuff": "N",
+    "roll_group": "CHARACTER",
+    "raw": "7310000:ro69|STD|N|CHARACTER|【无赖】延长绝招的有效时间"
+  },
+  {
+    "effect_id": -1,
+    "name": "--[装备]--",
+    "roll_order": null,
+    "compatibility": "",
+    "req_debuff": "N",
+    "roll_group": "",
+    "raw": "-1:--[装备]--"
+  },
+  {
+    "effect_id": 7043200,
+    "name": "强化挖石的魔法",
+    "roll_order": 290,
+    "compatibility": "BTH",
+    "req_debuff": "N",
+    "roll_group": "MAGIC_UP",
+    "raw": "7043200:ro290|BTH|N|MAGIC_UP|强化挖石的魔法"
+  },
+  {
+    "effect_id": 7043300,
+    "name": "强化卡利亚剑的魔法",
+    "roll_order": 291,
+    "compatibility": "BTH",
+    "req_debuff": "N",
+    "roll_group": "MAGIC_UP",
+    "raw": "7043300:ro291|BTH|N|MAGIC_UP|强化卡利亚剑的魔法"
+  },
+  {
+    "effect_id": 7043400,
+    "name": "强化辉剑的魔法",
+    "roll_order": 292,
+    "compatibility": "BTH",
+    "req_debuff": "N",
+    "roll_group": "MAGIC_UP",
+    "raw": "7043400:ro292|BTH|N|MAGIC_UP|强化辉剑的魔法"
+  },
+  {
+    "effect_id": 7043500,
+    "name": "强化隐形的魔法",
+    "roll_order": 293,
+    "compatibility": "BTH",
+    "req_debuff": "N",
+    "roll_group": "MAGIC_UP",
+    "raw": "7043500:ro293|BTH|N|MAGIC_UP|强化隐形的魔法"
+  },
+  {
+    "effect_id": 7043600,
+    "name": "强化结晶人的魔法",
+    "roll_order": 294,
+    "compatibility": "BTH",
+    "req_debuff": "N",
+    "roll_group": "MAGIC_UP",
+    "raw": "7043600:ro294|BTH|N|MAGIC_UP|强化结晶人的魔法"
+  },
+  {
+    "effect_id": 7043700,
+    "name": "强化重力的魔法",
+    "roll_order": 295,
+    "compatibility": "BTH",
+    "req_debuff": "N",
+    "roll_group": "MAGIC_UP",
+    "raw": "7043700:ro295|BTH|N|MAGIC_UP|强化重力的魔法"
+  },
+  {
+    "effect_id": 7043800,
+    "name": "强化荆棘的魔法",
+    "roll_order": 296,
+    "compatibility": "BTH",
+    "req_debuff": "N",
+    "roll_group": "MAGIC_UP",
+    "raw": "7043800:ro296|BTH|N|MAGIC_UP|强化荆棘的魔法"
+  },
+  {
+    "effect_id": 7044000,
+    "name": "强化黄金律法基本主义的祷告",
+    "roll_order": 297,
+    "compatibility": "BTH",
+    "req_debuff": "N",
+    "roll_group": "MAGIC_UP",
+    "raw": "7044000:ro297|BTH|N|MAGIC_UP|强化黄金律法基本主义的祷告"
+  },
+  {
+    "effect_id": 7044100,
+    "name": "强化王城古龙信仰的祷告",
+    "roll_order": 298,
+    "compatibility": "BTH",
+    "req_debuff": "N",
+    "roll_group": "MAGIC_UP",
+    "raw": "7044100:ro298|BTH|N|MAGIC_UP|强化王城古龙信仰的祷告"
+  },
+  {
+    "effect_id": 7044200,
+    "name": "强化巨人火焰的祷告",
+    "roll_order": 299,
+    "compatibility": "BTH",
+    "req_debuff": "N",
+    "roll_group": "MAGIC_UP",
+    "raw": "7044200:ro299|BTH|N|MAGIC_UP|强化巨人火焰的祷告"
+  },
+  {
+    "effect_id": 7044300,
+    "name": "强化狩猎神祇的祷告",
+    "roll_order": 300,
+    "compatibility": "BTH",
+    "req_debuff": "N",
+    "roll_group": "MAGIC_UP",
+    "raw": "7044300:ro300|BTH|N|MAGIC_UP|强化狩猎神祇的祷告"
+  },
+  {
+    "effect_id": 7044400,
+    "name": "强化野兽的祷告",
+    "roll_order": 301,
+    "compatibility": "BTH",
+    "req_debuff": "N",
+    "roll_group": "MAGIC_UP",
+    "raw": "7044400:ro301|BTH|N|MAGIC_UP|强化野兽的祷告"
+  },
+  {
+    "effect_id": 7044500,
+    "name": "强化癫火的祷告",
+    "roll_order": 302,
+    "compatibility": "BTH",
+    "req_debuff": "N",
+    "roll_group": "MAGIC_UP",
+    "raw": "7044500:ro302|BTH|N|MAGIC_UP|强化癫火的祷告"
+  },
+  {
+    "effect_id": 7044600,
+    "name": "强化龙飨的祷告",
+    "roll_order": 303,
+    "compatibility": "BTH",
+    "req_debuff": "N",
+    "roll_group": "MAGIC_UP",
+    "raw": "7044600:ro303|BTH|N|MAGIC_UP|强化龙飨的祷告"
+  },
+  {
+    "effect_id": 7120900,
+    "name": "出击时，会持有“石剑钥匙”",
+    "roll_order": 321,
+    "compatibility": "BTH",
+    "req_debuff": "N",
+    "roll_group": "NONE",
+    "raw": "7120900:ro321|BTH|N|NONE|出击时，会持有“石剑钥匙”"
+  },
+  {
+    "effect_id": 7121000,
+    "name": "出击时，会持有“小型随身包包”",
+    "roll_order": 322,
+    "compatibility": "BTH",
+    "req_debuff": "N",
+    "roll_group": "NONE",
+    "raw": "7121000:ro322|BTH|N|NONE|出击时，会持有“小型随身包包”"
+  },
+  {
+    "effect_id": 7121100,
+    "name": "出击时，会持有“火焰壶”",
+    "roll_order": 323,
+    "compatibility": "STD",
+    "req_debuff": "N",
+    "roll_group": "NONE",
+    "raw": "7121100:ro323|STD|N|NONE|出击时，会持有“火焰壶”"
+  },
+  {
+    "effect_id": 7121200,
+    "name": "出击时，会持有“魔力壶”",
+    "roll_order": 324,
+    "compatibility": "STD",
+    "req_debuff": "N",
+    "roll_group": "NONE",
+    "raw": "7121200:ro324|STD|N|NONE|出击时，会持有“魔力壶”"
+  },
+  {
+    "effect_id": 7121300,
+    "name": "出击时，会持有“雷电壶”",
+    "roll_order": 325,
+    "compatibility": "STD",
+    "req_debuff": "N",
+    "roll_group": "NONE",
+    "raw": "7121300:ro325|STD|N|NONE|出击时，会持有“雷电壶”"
+  },
+  {
+    "effect_id": 7121400,
+    "name": "出击时，会持有“圣水壶”",
+    "roll_order": 326,
+    "compatibility": "STD",
+    "req_debuff": "N",
+    "roll_group": "NONE",
+    "raw": "7121400:ro326|STD|N|NONE|出击时，会持有“圣水壶”"
+  },
+  {
+    "effect_id": 7121500,
+    "name": "出击时，会持有“兽骨毒飞刀”",
+    "roll_order": 327,
+    "compatibility": "STD",
+    "req_debuff": "N",
+    "roll_group": "NONE",
+    "raw": "7121500:ro327|STD|N|NONE|出击时，会持有“兽骨毒飞刀”"
+  },
+  {
+    "effect_id": 7121600,
+    "name": "出击时，会持有“结晶飞刀”",
+    "roll_order": 328,
+    "compatibility": "STD",
+    "req_debuff": "N",
+    "roll_group": "NONE",
+    "raw": "7121600:ro328|STD|N|NONE|出击时，会持有“结晶飞刀”"
+  },
+  {
+    "effect_id": 7121700,
+    "name": "出击时，会持有“投掷匕首”",
+    "roll_order": 329,
+    "compatibility": "STD",
+    "req_debuff": "N",
+    "roll_group": "NONE",
+    "raw": "7121700:ro329|STD|N|NONE|出击时，会持有“投掷匕首”"
+  },
+  {
+    "effect_id": 7121800,
+    "name": "出击时，会持有“崩裂辉石”",
+    "roll_order": 330,
+    "compatibility": "STD",
+    "req_debuff": "N",
+    "roll_group": "NONE",
+    "raw": "7121800:ro330|STD|N|NONE|出击时，会持有“崩裂辉石”"
+  },
+  {
+    "effect_id": 7121900,
+    "name": "出击时，会持有“块状重力石”",
+    "roll_order": 331,
+    "compatibility": "STD",
+    "req_debuff": "N",
+    "roll_group": "NONE",
+    "raw": "7121900:ro331|STD|N|NONE|出击时，会持有“块状重力石”"
+  },
+  {
+    "effect_id": 7122000,
+    "name": "出击时，会持有“魅惑树枝”",
+    "roll_order": 332,
+    "compatibility": "STD",
+    "req_debuff": "N",
+    "roll_group": "NONE",
+    "raw": "7122000:ro332|STD|N|NONE|出击时，会持有“魅惑树枝”"
+  },
+  {
+    "effect_id": 7122100,
+    "name": "出击时，会持有“召咒魂铃”",
+    "roll_order": 333,
+    "compatibility": "STD",
+    "req_debuff": "N",
+    "roll_group": "NONE",
+    "raw": "7122100:ro333|STD|N|NONE|出击时，会持有“召咒魂铃”"
+  },
+  {
+    "effect_id": 7122200,
+    "name": "出击时，会持有“火油脂”",
+    "roll_order": 334,
+    "compatibility": "STD",
+    "req_debuff": "N",
+    "roll_group": "NONE",
+    "raw": "7122200:ro334|STD|N|NONE|出击时，会持有“火油脂”"
+  },
+  {
+    "effect_id": 7122300,
+    "name": "出击时，会持有“魔力油脂”",
+    "roll_order": 335,
+    "compatibility": "STD",
+    "req_debuff": "N",
+    "roll_group": "NONE",
+    "raw": "7122300:ro335|STD|N|NONE|出击时，会持有“魔力油脂”"
+  },
+  {
+    "effect_id": 7122400,
+    "name": "出击时，会持有“雷油脂”",
+    "roll_order": 336,
+    "compatibility": "STD",
+    "req_debuff": "N",
+    "roll_group": "NONE",
+    "raw": "7122400:ro336|STD|N|NONE|出击时，会持有“雷油脂”"
+  },
+  {
+    "effect_id": 7122500,
+    "name": "出击时，会持有“圣油脂”",
+    "roll_order": 337,
+    "compatibility": "STD",
+    "req_debuff": "N",
+    "roll_group": "NONE",
+    "raw": "7122500:ro337|STD|N|NONE|出击时，会持有“圣油脂”"
+  },
+  {
+    "effect_id": 7122600,
+    "name": "出击时，会持有“坚盾油脂”",
+    "roll_order": 338,
+    "compatibility": "STD",
+    "req_debuff": "N",
+    "roll_group": "NONE",
+    "raw": "7122600:ro338|STD|N|NONE|出击时，会持有“坚盾油脂”"
+  },
+  {
+    "effect_id": 7126000,
+    "name": "出击时，会持有“星光碎片”",
+    "roll_order": 359,
+    "compatibility": "STD",
+    "req_debuff": "N",
+    "roll_group": "NONE",
+    "raw": "7126000:ro359|STD|N|NONE|出击时，会持有“星光碎片”"
+  },
+  {
+    "effect_id": 7122700,
+    "name": "出击时，武器战技改为“辉剑圆阵”",
+    "roll_order": 339,
+    "compatibility": "STD",
+    "req_debuff": "N",
+    "roll_group": "SKILL",
+    "raw": "7122700:ro339|STD|N|SKILL|出击时，武器战技改为“辉剑圆阵”"
+  },
+  {
+    "effect_id": 7122800,
+    "name": "出击时，武器战技改为“重力”",
+    "roll_order": 340,
+    "compatibility": "STD",
+    "req_debuff": "N",
+    "roll_group": "SKILL",
+    "raw": "7122800:ro340|STD|N|SKILL|出击时，武器战技改为“重力”"
+  },
+  {
+    "effect_id": 7122900,
+    "name": "出击时，武器战技改为“炎击”",
+    "roll_order": 341,
+    "compatibility": "STD",
+    "req_debuff": "N",
+    "roll_group": "SKILL",
+    "raw": "7122900:ro341|STD|N|SKILL|出击时，武器战技改为“炎击”"
+  },
+  {
+    "effect_id": 7123000,
+    "name": "出击时，武器战技改为“熔岩火浆”",
+    "roll_order": 342,
+    "compatibility": "STD",
+    "req_debuff": "N",
+    "roll_group": "SKILL",
+    "raw": "7123000:ro342|STD|N|SKILL|出击时，武器战技改为“熔岩火浆”"
+  },
+  {
+    "effect_id": 7123100,
+    "name": "出击时，武器战技改为“落雷”",
+    "roll_order": 343,
+    "compatibility": "STD",
+    "req_debuff": "N",
+    "roll_group": "SKILL",
+    "raw": "7123100:ro343|STD|N|SKILL|出击时，武器战技改为“落雷”"
+  },
+  {
+    "effect_id": 7123200,
+    "name": "出击时，武器战技改为“雷击斩”",
+    "roll_order": 344,
+    "compatibility": "STD",
+    "req_debuff": "N",
+    "roll_group": "SKILL",
+    "raw": "7123200:ro344|STD|N|SKILL|出击时，武器战技改为“雷击斩”"
+  },
+  {
+    "effect_id": 7123300,
+    "name": "出击时，武器战技改为“神圣刀刃”",
+    "roll_order": 345,
+    "compatibility": "STD",
+    "req_debuff": "N",
+    "roll_group": "SKILL",
+    "raw": "7123300:ro345|STD|N|SKILL|出击时，武器战技改为“神圣刀刃”"
+  },
+  {
+    "effect_id": 7123400,
+    "name": "出击时，武器战技改为“祈祷一击”",
+    "roll_order": 346,
+    "compatibility": "STD",
+    "req_debuff": "N",
+    "roll_group": "SKILL",
+    "raw": "7123400:ro346|STD|N|SKILL|出击时，武器战技改为“祈祷一击”"
+  },
+  {
+    "effect_id": 7123500,
+    "name": "出击时，武器战技改为“毒雾”",
+    "roll_order": 347,
+    "compatibility": "STD",
+    "req_debuff": "N",
+    "roll_group": "SKILL",
+    "raw": "7123500:ro347|STD|N|SKILL|出击时，武器战技改为“毒雾”"
+  },
+  {
+    "effect_id": 7123600,
+    "name": "出击时，武器战技改为“双吻毒蛾”",
+    "roll_order": 348,
+    "compatibility": "STD",
+    "req_debuff": "N",
+    "roll_group": "SKILL",
+    "raw": "7123600:ro348|STD|N|SKILL|出击时，武器战技改为“双吻毒蛾”"
+  },
+  {
+    "effect_id": 7123700,
+    "name": "出击时，武器战技改为“血刃”",
+    "roll_order": 349,
+    "compatibility": "STD",
+    "req_debuff": "N",
+    "roll_group": "SKILL",
+    "raw": "7123700:ro349|STD|N|SKILL|出击时，武器战技改为“血刃”"
+  },
+  {
+    "effect_id": 7123800,
+    "name": "出击时，武器战技改为“切腹”",
+    "roll_order": 350,
+    "compatibility": "STD",
+    "req_debuff": "N",
+    "roll_group": "SKILL",
+    "raw": "7123800:ro350|STD|N|SKILL|出击时，武器战技改为“切腹”"
+  },
+  {
+    "effect_id": 7123900,
+    "name": "出击时，武器战技改为“寒气冻雾”",
+    "roll_order": 351,
+    "compatibility": "STD",
+    "req_debuff": "N",
+    "roll_group": "SKILL",
+    "raw": "7123900:ro351|STD|N|SKILL|出击时，武器战技改为“寒气冻雾”"
+  },
+  {
+    "effect_id": 7124000,
+    "name": "出击时，武器战技改为“冻霜踏地”",
+    "roll_order": 352,
+    "compatibility": "STD",
+    "req_debuff": "N",
+    "roll_group": "SKILL",
+    "raw": "7124000:ro352|STD|N|SKILL|出击时，武器战技改为“冻霜踏地”"
+  },
+  {
+    "effect_id": 7124100,
+    "name": "出击时，武器战技改为“白影诱惑”",
+    "roll_order": 353,
+    "compatibility": "STD",
+    "req_debuff": "N",
+    "roll_group": "SKILL",
+    "raw": "7124100:ro353|STD|N|SKILL|出击时，武器战技改为“白影诱惑”"
+  },
+  {
+    "effect_id": 7124300,
+    "name": "出击时，武器战技改为“忍耐”",
+    "roll_order": 354,
+    "compatibility": "STD",
+    "req_debuff": "N",
+    "roll_group": "SKILL",
+    "raw": "7124300:ro354|STD|N|SKILL|出击时，武器战技改为“忍耐”"
+  },
+  {
+    "effect_id": 7124400,
+    "name": "出击时，武器战技改为“碎步”",
+    "roll_order": 355,
+    "compatibility": "STD",
+    "req_debuff": "N",
+    "roll_group": "SKILL",
+    "raw": "7124400:ro355|STD|N|SKILL|出击时，武器战技改为“碎步”"
+  },
+  {
+    "effect_id": 7124500,
+    "name": "出击时，武器战技改为“风暴足”",
+    "roll_order": 356,
+    "compatibility": "STD",
+    "req_debuff": "N",
+    "roll_group": "SKILL",
+    "raw": "7124500:ro356|STD|N|SKILL|出击时，武器战技改为“风暴足”"
+  },
+  {
+    "effect_id": 7124600,
+    "name": "出击时，武器战技改为“决心”",
+    "roll_order": 357,
+    "compatibility": "STD",
+    "req_debuff": "N",
+    "roll_group": "SKILL",
+    "raw": "7124600:ro357|STD|N|SKILL|出击时，武器战技改为“决心”"
+  },
+  {
+    "effect_id": 7124700,
+    "name": "出击时，武器战技改为“箭雨”",
+    "roll_order": 358,
+    "compatibility": "STD",
+    "req_debuff": "N",
+    "roll_group": "SKILL",
+    "raw": "7124700:ro358|STD|N|SKILL|出击时，武器战技改为“箭雨”"
+  },
+  {
+    "effect_id": 7360600,
+    "name": "出击时，武器魔法改为“魔法辉剑",
+    "roll_order": 367,
+    "compatibility": "STD",
+    "req_debuff": "N",
+    "roll_group": "SPELL",
+    "raw": "7360600:ro367|STD|N|SPELL|出击时，武器魔法改为“魔法辉剑"
+  },
+  {
+    "effect_id": 7360900,
+    "name": "出击时，武器魔法改为“卡利亚大剑”",
+    "roll_order": 368,
+    "compatibility": "STD",
+    "req_debuff": "N",
+    "roll_group": "SPELL",
+    "raw": "7360900:ro368|STD|N|SPELL|出击时，武器魔法改为“卡利亚大剑”"
+  },
+  {
+    "effect_id": 7361200,
+    "name": "出击时，武器魔法改为“黑夜魔砾”",
+    "roll_order": 369,
+    "compatibility": "STD",
+    "req_debuff": "N",
+    "roll_group": "SPELL",
+    "raw": "7361200:ro369|STD|N|SPELL|出击时，武器魔法改为“黑夜魔砾”"
+  },
+  {
+    "effect_id": 7361300,
+    "name": "出击时，武器魔法改为“熔岩球”",
+    "roll_order": 370,
+    "compatibility": "STD",
+    "req_debuff": "N",
+    "roll_group": "SPELL",
+    "raw": "7361300:ro370|STD|N|SPELL|出击时，武器魔法改为“熔岩球”"
+  },
+  {
+    "effect_id": 7362100,
+    "name": "出击时，武器魔法改为“责罚荆棘”",
+    "roll_order": 371,
+    "compatibility": "STD",
+    "req_debuff": "N",
+    "roll_group": "SPELL",
+    "raw": "7362100:ro371|STD|N|SPELL|出击时，武器魔法改为“责罚荆棘”"
+  },
+  {
+    "effect_id": 7370300,
+    "name": "出击时，武器祷告改为“黄金之怒”",
+    "roll_order": 372,
+    "compatibility": "STD",
+    "req_debuff": "N",
+    "roll_group": "SPELL",
+    "raw": "7370300:ro372|STD|N|SPELL|出击时，武器祷告改为“黄金之怒”"
+  },
+  {
+    "effect_id": 7370400,
+    "name": "出击时，武器祷告改为“雷电枪”",
+    "roll_order": 373,
+    "compatibility": "STD",
+    "req_debuff": "N",
+    "roll_group": "SPELL",
+    "raw": "7370400:ro373|STD|N|SPELL|出击时，武器祷告改为“雷电枪”"
+  },
+  {
+    "effect_id": 7370600,
+    "name": "出击时，武器祷告改为“火焰啊!”",
+    "roll_order": 374,
+    "compatibility": "STD",
+    "req_debuff": "N",
+    "roll_group": "SPELL",
+    "raw": "7370600:ro374|STD|N|SPELL|出击时，武器祷告改为“火焰啊!”"
+  },
+  {
+    "effect_id": 7370900,
+    "name": "出击时，武器祷告改为“兽爪”",
+    "roll_order": 375,
+    "compatibility": "STD",
+    "req_debuff": "N",
+    "roll_group": "SPELL",
+    "raw": "7370900:ro375|STD|N|SPELL|出击时，武器祷告改为“兽爪”"
+  },
+  {
+    "effect_id": 7371500,
+    "name": "出击时，武器祷告改为“龙焰”",
+    "roll_order": 376,
+    "compatibility": "STD",
+    "req_debuff": "N",
+    "roll_group": "SPELL",
+    "raw": "7371500:ro376|STD|N|SPELL|出击时，武器祷告改为“龙焰”"
+  },
+  {
+    "effect_id": 7120000,
+    "name": "出击时的武器，附加魔力属性攻击力",
+    "roll_order": 314,
+    "compatibility": "STD",
+    "req_debuff": "N",
+    "roll_group": "ST_AFFINITY",
+    "raw": "7120000:ro314|STD|N|ST_AFFINITY|出击时的武器，附加魔力属性攻击力"
+  },
+  {
+    "effect_id": 7120100,
+    "name": "出击时的武器，附加火属性攻击力",
+    "roll_order": 315,
+    "compatibility": "STD",
+    "req_debuff": "N",
+    "roll_group": "ST_AFFINITY",
+    "raw": "7120100:ro315|STD|N|ST_AFFINITY|出击时的武器，附加火属性攻击力"
+  },
+  {
+    "effect_id": 7120200,
+    "name": "出击时的武器，附加雷属性攻击力",
+    "roll_order": 316,
+    "compatibility": "STD",
+    "req_debuff": "N",
+    "roll_group": "ST_AFFINITY",
+    "raw": "7120200:ro316|STD|N|ST_AFFINITY|出击时的武器，附加雷属性攻击力"
+  },
+  {
+    "effect_id": 7120300,
+    "name": "出击时的武器，附加圣属性攻击力",
+    "roll_order": 317,
+    "compatibility": "STD",
+    "req_debuff": "N",
+    "roll_group": "ST_AFFINITY",
+    "raw": "7120300:ro317|STD|N|ST_AFFINITY|出击时的武器，附加圣属性攻击力"
+  },
+  {
+    "effect_id": 7120400,
+    "name": "出击时的武器，附加异常状态冻伤",
+    "roll_order": 318,
+    "compatibility": "STD",
+    "req_debuff": "N",
+    "roll_group": "ST_AFFINITY",
+    "raw": "7120400:ro318|STD|N|ST_AFFINITY|出击时的武器，附加异常状态冻伤"
+  },
+  {
+    "effect_id": 7120500,
+    "name": "出击时的武器，附加异常状态中毒",
+    "roll_order": 319,
+    "compatibility": "STD",
+    "req_debuff": "N",
+    "roll_group": "ST_AFFINITY",
+    "raw": "7120500:ro319|STD|N|ST_AFFINITY|出击时的武器，附加异常状态中毒"
+  },
+  {
+    "effect_id": 7120600,
+    "name": "出击时的武器，附加异常状态出血",
+    "roll_order": 320,
+    "compatibility": "STD",
+    "req_debuff": "N",
+    "roll_group": "ST_AFFINITY",
+    "raw": "7120600:ro320|STD|N|ST_AFFINITY|出击时的武器，附加异常状态出血"
+  },
+  {
+    "effect_id": -1,
+    "name": "--[FP/HP 恢复]--",
+    "roll_order": null,
+    "compatibility": "",
+    "req_debuff": "N",
+    "roll_group": "",
+    "raw": "-1:--[FP/HP 恢复]--"
+  },
+  {
+    "effect_id": 7350000,
+    "name": "以短剑攻击时，恢复专注值",
+    "roll_order": 147,
+    "compatibility": "BTH",
+    "req_debuff": "N",
+    "roll_group": "FP_REST",
+    "raw": "7350000:ro147|BTH|N|FP_REST|以短剑攻击时，恢复专注值"
+  },
+  {
+    "effect_id": 7350100,
+    "name": "以直剑攻击时，恢复专注值",
+    "roll_order": 148,
+    "compatibility": "BTH",
+    "req_debuff": "N",
+    "roll_group": "FP_REST",
+    "raw": "7350100:ro148|BTH|N|FP_REST|以直剑攻击时，恢复专注值"
+  },
+  {
+    "effect_id": 7350200,
+    "name": "以大剑攻击时，恢复专注值",
+    "roll_order": 149,
+    "compatibility": "BTH",
+    "req_debuff": "N",
+    "roll_group": "FP_REST",
+    "raw": "7350200:ro149|BTH|N|FP_REST|以大剑攻击时，恢复专注值"
+  },
+  {
+    "effect_id": 7350300,
+    "name": "以特大剑攻击时，恢复专注值",
+    "roll_order": 150,
+    "compatibility": "BTH",
+    "req_debuff": "N",
+    "roll_group": "FP_REST",
+    "raw": "7350300:ro150|BTH|N|FP_REST|以特大剑攻击时，恢复专注值"
+  },
+  {
+    "effect_id": 7350400,
+    "name": "以曲剑攻击时，恢复专注值",
+    "roll_order": 151,
+    "compatibility": "BTH",
+    "req_debuff": "N",
+    "roll_group": "FP_REST",
+    "raw": "7350400:ro151|BTH|N|FP_REST|以曲剑攻击时，恢复专注值"
+  },
+  {
+    "effect_id": 7350500,
+    "name": "以大曲剑攻击时，恢复专注值",
+    "roll_order": 152,
+    "compatibility": "BTH",
+    "req_debuff": "N",
+    "roll_group": "FP_REST",
+    "raw": "7350500:ro152|BTH|N|FP_REST|以大曲剑攻击时，恢复专注值"
+  },
+  {
+    "effect_id": 7350600,
+    "name": "以刀攻击时，恢复专注值",
+    "roll_order": 153,
+    "compatibility": "BTH",
+    "req_debuff": "N",
+    "roll_group": "FP_REST",
+    "raw": "7350600:ro153|BTH|N|FP_REST|以刀攻击时，恢复专注值"
+  },
+  {
+    "effect_id": 7350700,
+    "name": "以双头剑攻击时，恢复专注值",
+    "roll_order": 154,
+    "compatibility": "BTH",
+    "req_debuff": "N",
+    "roll_group": "FP_REST",
+    "raw": "7350700:ro154|BTH|N|FP_REST|以双头剑攻击时，恢复专注值"
+  },
+  {
+    "effect_id": 7350800,
+    "name": "以刺剑攻击时，恢复专注值",
+    "roll_order": 155,
+    "compatibility": "BTH",
+    "req_debuff": "N",
+    "roll_group": "FP_REST",
+    "raw": "7350800:ro155|BTH|N|FP_REST|以刺剑攻击时，恢复专注值"
+  },
+  {
+    "effect_id": 7350900,
+    "name": "以重刺剑攻击时，恢复专注值",
+    "roll_order": 156,
+    "compatibility": "BTH",
+    "req_debuff": "N",
+    "roll_group": "FP_REST",
+    "raw": "7350900:ro156|BTH|N|FP_REST|以重刺剑攻击时，恢复专注值"
+  },
+  {
+    "effect_id": 7351000,
+    "name": "以斧攻击时，恢复专注值",
+    "roll_order": 157,
+    "compatibility": "BTH",
+    "req_debuff": "N",
+    "roll_group": "FP_REST",
+    "raw": "7351000:ro157|BTH|N|FP_REST|以斧攻击时，恢复专注值"
+  },
+  {
+    "effect_id": 7351100,
+    "name": "以大斧攻击时，恢复专注值",
+    "roll_order": 158,
+    "compatibility": "BTH",
+    "req_debuff": "N",
+    "roll_group": "FP_REST",
+    "raw": "7351100:ro158|BTH|N|FP_REST|以大斧攻击时，恢复专注值"
+  },
+  {
+    "effect_id": 7351200,
+    "name": "以槌攻击时，恢复专注值",
+    "roll_order": 159,
+    "compatibility": "BTH",
+    "req_debuff": "N",
+    "roll_group": "FP_REST",
+    "raw": "7351200:ro159|BTH|N|FP_REST|以槌攻击时，恢复专注值"
+  },
+  {
+    "effect_id": 7351300,
+    "name": "以大槌攻击时，恢复专注值",
+    "roll_order": 160,
+    "compatibility": "BTH",
+    "req_debuff": "N",
+    "roll_group": "FP_REST",
+    "raw": "7351300:ro160|BTH|N|FP_REST|以大槌攻击时，恢复专注值"
+  },
+  {
+    "effect_id": 7351400,
+    "name": "以连枷攻击时，恢复专注值",
+    "roll_order": 161,
+    "compatibility": "BTH",
+    "req_debuff": "N",
+    "roll_group": "FP_REST",
+    "raw": "7351400:ro161|BTH|N|FP_REST|以连枷攻击时，恢复专注值"
+  },
+  {
+    "effect_id": 7351500,
+    "name": "以矛攻击时，恢复专注值",
+    "roll_order": 162,
+    "compatibility": "BTH",
+    "req_debuff": "N",
+    "roll_group": "FP_REST",
+    "raw": "7351500:ro162|BTH|N|FP_REST|以矛攻击时，恢复专注值"
+  },
+  {
+    "effect_id": 7351700,
+    "name": "以大矛攻击时，恢复专注值",
+    "roll_order": 163,
+    "compatibility": "BTH",
+    "req_debuff": "N",
+    "roll_group": "FP_REST",
+    "raw": "7351700:ro163|BTH|N|FP_REST|以大矛攻击时，恢复专注值"
+  },
+  {
+    "effect_id": 7351800,
+    "name": "以戟攻击时，恢复专注值",
+    "roll_order": 164,
+    "compatibility": "BTH",
+    "req_debuff": "N",
+    "roll_group": "FP_REST",
+    "raw": "7351800:ro164|BTH|N|FP_REST|以戟攻击时，恢复专注值"
+  },
+  {
+    "effect_id": 7351900,
+    "name": "以镰刀攻击时，恢复专注值",
+    "roll_order": 165,
+    "compatibility": "BTH",
+    "req_debuff": "N",
+    "roll_group": "FP_REST",
+    "raw": "7351900:ro165|BTH|N|FP_REST|以镰刀攻击时，恢复专注值"
+  },
+  {
+    "effect_id": 7352000,
+    "name": "以拳头攻击时，恢复专注值",
+    "roll_order": 166,
+    "compatibility": "BTH",
+    "req_debuff": "N",
+    "roll_group": "FP_REST",
+    "raw": "7352000:ro166|BTH|N|FP_REST|以拳头攻击时，恢复专注值"
+  },
+  {
+    "effect_id": 7352100,
+    "name": "以钩爪攻击时，恢复专注值",
+    "roll_order": 167,
+    "compatibility": "BTH",
+    "req_debuff": "N",
+    "roll_group": "FP_REST",
+    "raw": "7352100:ro167|BTH|N|FP_REST|以钩爪攻击时，恢复专注值"
+  },
+  {
+    "effect_id": 7352200,
+    "name": "以软鞭攻击时，恢复专注值",
+    "roll_order": 168,
+    "compatibility": "BTH",
+    "req_debuff": "N",
+    "roll_group": "FP_REST",
+    "raw": "7352200:ro168|BTH|N|FP_REST|以软鞭攻击时，恢复专注值"
+  },
+  {
+    "effect_id": 7352300,
+    "name": "以特大武器攻击时，恢复专注值",
+    "roll_order": 169,
+    "compatibility": "BTH",
+    "req_debuff": "N",
+    "roll_group": "FP_REST",
+    "raw": "7352300:ro169|BTH|N|FP_REST|以特大武器攻击时，恢复专注值"
+  },
+  {
+    "effect_id": 7352400,
+    "name": "以弓攻击时，恢复专注值",
+    "roll_order": 170,
+    "compatibility": "BTH",
+    "req_debuff": "N",
+    "roll_group": "FP_REST",
+    "raw": "7352400:ro170|BTH|N|FP_REST|以弓攻击时，恢复专注值"
+  },
+  {
+    "effect_id": 7340000,
+    "name": "以短剑攻击时，恢复血量",
+    "roll_order": 123,
+    "compatibility": "BTH",
+    "req_debuff": "N",
+    "roll_group": "HP_REST",
+    "raw": "7340000:ro123|BTH|N|HP_REST|以短剑攻击时，恢复血量"
+  },
+  {
+    "effect_id": 7340100,
+    "name": "以直剑攻击时，恢复血量",
+    "roll_order": 124,
+    "compatibility": "BTH",
+    "req_debuff": "N",
+    "roll_group": "HP_REST",
+    "raw": "7340100:ro124|BTH|N|HP_REST|以直剑攻击时，恢复血量"
+  },
+  {
+    "effect_id": 7340200,
+    "name": "以大剑攻击时，恢复血量",
+    "roll_order": 125,
+    "compatibility": "BTH",
+    "req_debuff": "N",
+    "roll_group": "HP_REST",
+    "raw": "7340200:ro125|BTH|N|HP_REST|以大剑攻击时，恢复血量"
+  },
+  {
+    "effect_id": 7340300,
+    "name": "以特大剑攻击时，恢复血量",
+    "roll_order": 126,
+    "compatibility": "BTH",
+    "req_debuff": "N",
+    "roll_group": "HP_REST",
+    "raw": "7340300:ro126|BTH|N|HP_REST|以特大剑攻击时，恢复血量"
+  },
+  {
+    "effect_id": 7340400,
+    "name": "以曲剑攻击时，恢复血量",
+    "roll_order": 127,
+    "compatibility": "BTH",
+    "req_debuff": "N",
+    "roll_group": "HP_REST",
+    "raw": "7340400:ro127|BTH|N|HP_REST|以曲剑攻击时，恢复血量"
+  },
+  {
+    "effect_id": 7340500,
+    "name": "以大曲剑攻击时，恢复血量",
+    "roll_order": 128,
+    "compatibility": "BTH",
+    "req_debuff": "N",
+    "roll_group": "HP_REST",
+    "raw": "7340500:ro128|BTH|N|HP_REST|以大曲剑攻击时，恢复血量"
+  },
+  {
+    "effect_id": 7340600,
+    "name": "以刀攻击时，恢复血量",
+    "roll_order": 129,
+    "compatibility": "BTH",
+    "req_debuff": "N",
+    "roll_group": "HP_REST",
+    "raw": "7340600:ro129|BTH|N|HP_REST|以刀攻击时，恢复血量"
+  },
+  {
+    "effect_id": 7340700,
+    "name": "以双头剑攻击时，恢复血量",
+    "roll_order": 130,
+    "compatibility": "BTH",
+    "req_debuff": "N",
+    "roll_group": "HP_REST",
+    "raw": "7340700:ro130|BTH|N|HP_REST|以双头剑攻击时，恢复血量"
+  },
+  {
+    "effect_id": 7340800,
+    "name": "以刺剑攻击时，恢复血量",
+    "roll_order": 131,
+    "compatibility": "BTH",
+    "req_debuff": "N",
+    "roll_group": "HP_REST",
+    "raw": "7340800:ro131|BTH|N|HP_REST|以刺剑攻击时，恢复血量"
+  },
+  {
+    "effect_id": 7340900,
+    "name": "以重刺剑攻击时，恢复血量",
+    "roll_order": 132,
+    "compatibility": "BTH",
+    "req_debuff": "N",
+    "roll_group": "HP_REST",
+    "raw": "7340900:ro132|BTH|N|HP_REST|以重刺剑攻击时，恢复血量"
+  },
+  {
+    "effect_id": 7341000,
+    "name": "以斧攻击时，恢复血量",
+    "roll_order": 133,
+    "compatibility": "BTH",
+    "req_debuff": "N",
+    "roll_group": "HP_REST",
+    "raw": "7341000:ro133|BTH|N|HP_REST|以斧攻击时，恢复血量"
+  },
+  {
+    "effect_id": 7341100,
+    "name": "以大斧攻击时，恢复血量",
+    "roll_order": 134,
+    "compatibility": "BTH",
+    "req_debuff": "N",
+    "roll_group": "HP_REST",
+    "raw": "7341100:ro134|BTH|N|HP_REST|以大斧攻击时，恢复血量"
+  },
+  {
+    "effect_id": 7341200,
+    "name": "以槌攻击时，恢复血量",
+    "roll_order": 135,
+    "compatibility": "BTH",
+    "req_debuff": "N",
+    "roll_group": "HP_REST",
+    "raw": "7341200:ro135|BTH|N|HP_REST|以槌攻击时，恢复血量"
+  },
+  {
+    "effect_id": 7341300,
+    "name": "以大槌攻击时，恢复血量",
+    "roll_order": 136,
+    "compatibility": "BTH",
+    "req_debuff": "N",
+    "roll_group": "HP_REST",
+    "raw": "7341300:ro136|BTH|N|HP_REST|以大槌攻击时，恢复血量"
+  },
+  {
+    "effect_id": 7341400,
+    "name": "以连枷攻击时，恢复血量",
+    "roll_order": 137,
+    "compatibility": "BTH",
+    "req_debuff": "N",
+    "roll_group": "HP_REST",
+    "raw": "7341400:ro137|BTH|N|HP_REST|以连枷攻击时，恢复血量"
+  },
+  {
+    "effect_id": 7341500,
+    "name": "以矛攻击时，恢复血量",
+    "roll_order": 138,
+    "compatibility": "BTH",
+    "req_debuff": "N",
+    "roll_group": "HP_REST",
+    "raw": "7341500:ro138|BTH|N|HP_REST|以矛攻击时，恢复血量"
+  },
+  {
+    "effect_id": 7341700,
+    "name": "以大矛攻击时，恢复血量",
+    "roll_order": 139,
+    "compatibility": "BTH",
+    "req_debuff": "N",
+    "roll_group": "HP_REST",
+    "raw": "7341700:ro139|BTH|N|HP_REST|以大矛攻击时，恢复血量"
+  },
+  {
+    "effect_id": 7341800,
+    "name": "以戟攻击时，恢复血量",
+    "roll_order": 140,
+    "compatibility": "BTH",
+    "req_debuff": "N",
+    "roll_group": "HP_REST",
+    "raw": "7341800:ro140|BTH|N|HP_REST|以戟攻击时，恢复血量"
+  },
+  {
+    "effect_id": 7341900,
+    "name": "以镰刀攻击时，恢复血量",
+    "roll_order": 141,
+    "compatibility": "BTH",
+    "req_debuff": "N",
+    "roll_group": "HP_REST",
+    "raw": "7341900:ro141|BTH|N|HP_REST|以镰刀攻击时，恢复血量"
+  },
+  {
+    "effect_id": 7342000,
+    "name": "以拳头攻击时，恢复血量",
+    "roll_order": 142,
+    "compatibility": "BTH",
+    "req_debuff": "N",
+    "roll_group": "HP_REST",
+    "raw": "7342000:ro142|BTH|N|HP_REST|以拳头攻击时，恢复血量"
+  },
+  {
+    "effect_id": 7342100,
+    "name": "以钩爪攻击时，恢复血量",
+    "roll_order": 143,
+    "compatibility": "BTH",
+    "req_debuff": "N",
+    "roll_group": "HP_REST",
+    "raw": "7342100:ro143|BTH|N|HP_REST|以钩爪攻击时，恢复血量"
+  },
+  {
+    "effect_id": 7342200,
+    "name": "以软鞭攻击时，恢复血量",
+    "roll_order": 144,
+    "compatibility": "BTH",
+    "req_debuff": "N",
+    "roll_group": "HP_REST",
+    "raw": "7342200:ro144|BTH|N|HP_REST|以软鞭攻击时，恢复血量"
+  },
+  {
+    "effect_id": 7342300,
+    "name": "以特大武器攻击时，恢复血量",
+    "roll_order": 145,
+    "compatibility": "BTH",
+    "req_debuff": "N",
+    "roll_group": "HP_REST",
+    "raw": "7342300:ro145|BTH|N|HP_REST|以特大武器攻击时，恢复血量"
+  },
+  {
+    "effect_id": 7342400,
+    "name": "以弓攻击时，恢复血量",
+    "roll_order": 146,
+    "compatibility": "BTH",
+    "req_debuff": "N",
+    "roll_group": "HP_REST",
+    "raw": "7342400:ro146|BTH|N|HP_REST|以弓攻击时，恢复血量"
+  },
+  {
+    "effect_id": -1,
+    "name": "--[潜伏之力]--",
+    "roll_order": null,
+    "compatibility": "",
+    "req_debuff": "N",
+    "roll_group": "",
+    "raw": "-1:--[潜伏之力]--"
+  },
+  {
+    "effect_id": 6630000,
+    "name": "通过潜在能力，能比较容易找到短剑",
+    "roll_order": 237,
+    "compatibility": "BTH",
+    "req_debuff": "N",
+    "roll_group": "DISCOVERY",
+    "raw": "6630000:ro237|BTH|N|DISCOVERY|通过潜在能力，能比较容易找到短剑"
+  },
+  {
+    "effect_id": 6630100,
+    "name": "通过潜在能力，能比较容易找到直剑",
+    "roll_order": 238,
+    "compatibility": "BTH",
+    "req_debuff": "N",
+    "roll_group": "DISCOVERY",
+    "raw": "6630100:ro238|BTH|N|DISCOVERY|通过潜在能力，能比较容易找到直剑"
+  },
+  {
+    "effect_id": 6630200,
+    "name": "通过潜在能力，能比较容易找到大剑",
+    "roll_order": 239,
+    "compatibility": "BTH",
+    "req_debuff": "N",
+    "roll_group": "DISCOVERY",
+    "raw": "6630200:ro239|BTH|N|DISCOVERY|通过潜在能力，能比较容易找到大剑"
+  },
+  {
+    "effect_id": 6630300,
+    "name": "通过潜在能力，能比较容易找到特大剑",
+    "roll_order": 240,
+    "compatibility": "BTH",
+    "req_debuff": "N",
+    "roll_group": "DISCOVERY",
+    "raw": "6630300:ro240|BTH|N|DISCOVERY|通过潜在能力，能比较容易找到特大剑"
+  },
+  {
+    "effect_id": 6630400,
+    "name": "通过潜在能力，能比较容易找到曲剑",
+    "roll_order": 241,
+    "compatibility": "BTH",
+    "req_debuff": "N",
+    "roll_group": "DISCOVERY",
+    "raw": "6630400:ro241|BTH|N|DISCOVERY|通过潜在能力，能比较容易找到曲剑"
+  },
+  {
+    "effect_id": 6630500,
+    "name": "通过潜在能力，能比较容易找到大曲剑",
+    "roll_order": 242,
+    "compatibility": "BTH",
+    "req_debuff": "N",
+    "roll_group": "DISCOVERY",
+    "raw": "6630500:ro242|BTH|N|DISCOVERY|通过潜在能力，能比较容易找到大曲剑"
+  },
+  {
+    "effect_id": 6630600,
+    "name": "通过潜在能力，能比较容易找到刀",
+    "roll_order": 243,
+    "compatibility": "BTH",
+    "req_debuff": "N",
+    "roll_group": "DISCOVERY",
+    "raw": "6630600:ro243|BTH|N|DISCOVERY|通过潜在能力，能比较容易找到刀"
+  },
+  {
+    "effect_id": 6630700,
+    "name": "通过潜在能力，能比较容易找到双头剑",
+    "roll_order": 244,
+    "compatibility": "BTH",
+    "req_debuff": "N",
+    "roll_group": "DISCOVERY",
+    "raw": "6630700:ro244|BTH|N|DISCOVERY|通过潜在能力，能比较容易找到双头剑"
+  },
+  {
+    "effect_id": 6630800,
+    "name": "通过潜在能力，能比较容易找到刺剑",
+    "roll_order": 245,
+    "compatibility": "BTH",
+    "req_debuff": "N",
+    "roll_group": "DISCOVERY",
+    "raw": "6630800:ro245|BTH|N|DISCOVERY|通过潜在能力，能比较容易找到刺剑"
+  },
+  {
+    "effect_id": 6630900,
+    "name": "通过潜在能力，能比较容易找到重刺剑",
+    "roll_order": 246,
+    "compatibility": "BTH",
+    "req_debuff": "N",
+    "roll_group": "DISCOVERY",
+    "raw": "6630900:ro246|BTH|N|DISCOVERY|通过潜在能力，能比较容易找到重刺剑"
+  },
+  {
+    "effect_id": 6631000,
+    "name": "通过潜在能力，能比较容易找到斧",
+    "roll_order": 247,
+    "compatibility": "BTH",
+    "req_debuff": "N",
+    "roll_group": "DISCOVERY",
+    "raw": "6631000:ro247|BTH|N|DISCOVERY|通过潜在能力，能比较容易找到斧"
+  },
+  {
+    "effect_id": 6631100,
+    "name": "通过潜在能力，能比较容易找到大斧",
+    "roll_order": 248,
+    "compatibility": "BTH",
+    "req_debuff": "N",
+    "roll_group": "DISCOVERY",
+    "raw": "6631100:ro248|BTH|N|DISCOVERY|通过潜在能力，能比较容易找到大斧"
+  },
+  {
+    "effect_id": 6631200,
+    "name": "通过潜在能力，能比较容易找到槌",
+    "roll_order": 249,
+    "compatibility": "BTH",
+    "req_debuff": "N",
+    "roll_group": "DISCOVERY",
+    "raw": "6631200:ro249|BTH|N|DISCOVERY|通过潜在能力，能比较容易找到槌"
+  },
+  {
+    "effect_id": 6631300,
+    "name": "通过潜在能力，能比较容易找到大槌",
+    "roll_order": 250,
+    "compatibility": "BTH",
+    "req_debuff": "N",
+    "roll_group": "DISCOVERY",
+    "raw": "6631300:ro250|BTH|N|DISCOVERY|通过潜在能力，能比较容易找到大槌"
+  },
+  {
+    "effect_id": 6631400,
+    "name": "通过潜在能力，能比较容易找到连枷",
+    "roll_order": 251,
+    "compatibility": "BTH",
+    "req_debuff": "N",
+    "roll_group": "DISCOVERY",
+    "raw": "6631400:ro251|BTH|N|DISCOVERY|通过潜在能力，能比较容易找到连枷"
+  },
+  {
+    "effect_id": 6631500,
+    "name": "通过潜在能力，能比较容易找到矛",
+    "roll_order": 252,
+    "compatibility": "BTH",
+    "req_debuff": "N",
+    "roll_group": "DISCOVERY",
+    "raw": "6631500:ro252|BTH|N|DISCOVERY|通过潜在能力，能比较容易找到矛"
+  },
+  {
+    "effect_id": 6631600,
+    "name": "通过潜在能力，能比较容易找到大矛",
+    "roll_order": 253,
+    "compatibility": "BTH",
+    "req_debuff": "N",
+    "roll_group": "DISCOVERY",
+    "raw": "6631600:ro253|BTH|N|DISCOVERY|通过潜在能力，能比较容易找到大矛"
+  },
+  {
+    "effect_id": 6631700,
+    "name": "通过潜在能力，能比较容易找到戟",
+    "roll_order": 254,
+    "compatibility": "BTH",
+    "req_debuff": "N",
+    "roll_group": "DISCOVERY",
+    "raw": "6631700:ro254|BTH|N|DISCOVERY|通过潜在能力，能比较容易找到戟"
+  },
+  {
+    "effect_id": 6631800,
+    "name": "通过潜在能力，能比较容易找到镰刀",
+    "roll_order": 255,
+    "compatibility": "BTH",
+    "req_debuff": "N",
+    "roll_group": "DISCOVERY",
+    "raw": "6631800:ro255|BTH|N|DISCOVERY|通过潜在能力，能比较容易找到镰刀"
+  },
+  {
+    "effect_id": 6631900,
+    "name": "通过潜在能力，能比较容易找到拳头",
+    "roll_order": 256,
+    "compatibility": "BTH",
+    "req_debuff": "N",
+    "roll_group": "DISCOVERY",
+    "raw": "6631900:ro256|BTH|N|DISCOVERY|通过潜在能力，能比较容易找到拳头"
+  },
+  {
+    "effect_id": 6632000,
+    "name": "通过潜在能力，能比较容易找到钩爪",
+    "roll_order": 257,
+    "compatibility": "BTH",
+    "req_debuff": "N",
+    "roll_group": "DISCOVERY",
+    "raw": "6632000:ro257|BTH|N|DISCOVERY|通过潜在能力，能比较容易找到钩爪"
+  },
+  {
+    "effect_id": 6632100,
+    "name": "通过潜在能力，能比较容易找到软鞭",
+    "roll_order": 258,
+    "compatibility": "BTH",
+    "req_debuff": "N",
+    "roll_group": "DISCOVERY",
+    "raw": "6632100:ro258|BTH|N|DISCOVERY|通过潜在能力，能比较容易找到软鞭"
+  },
+  {
+    "effect_id": 6632200,
+    "name": "通过潜在能力，能比较容易找到特大武器",
+    "roll_order": 259,
+    "compatibility": "BTH",
+    "req_debuff": "N",
+    "roll_group": "DISCOVERY",
+    "raw": "6632200:ro259|BTH|N|DISCOVERY|通过潜在能力，能比较容易找到特大武器"
+  },
+  {
+    "effect_id": 6632300,
+    "name": "通过潜在能力，能比较容易找到弓",
+    "roll_order": 260,
+    "compatibility": "BTH",
+    "req_debuff": "N",
+    "roll_group": "DISCOVERY",
+    "raw": "6632300:ro260|BTH|N|DISCOVERY|通过潜在能力，能比较容易找到弓"
+  },
+  {
+    "effect_id": 6632400,
+    "name": "通过潜在能力，能比较容易找到大弓",
+    "roll_order": 261,
+    "compatibility": "BTH",
+    "req_debuff": "N",
+    "roll_group": "DISCOVERY",
+    "raw": "6632400:ro261|BTH|N|DISCOVERY|通过潜在能力，能比较容易找到大弓"
+  },
+  {
+    "effect_id": 6632500,
+    "name": "通过潜在能力，能比较容易找到弩",
+    "roll_order": 262,
+    "compatibility": "BTH",
+    "req_debuff": "N",
+    "roll_group": "DISCOVERY",
+    "raw": "6632500:ro262|BTH|N|DISCOVERY|通过潜在能力，能比较容易找到弩"
+  },
+  {
+    "effect_id": 6632600,
+    "name": "通过潜在能力，能比较容易找到弩炮",
+    "roll_order": 263,
+    "compatibility": "BTH",
+    "req_debuff": "N",
+    "roll_group": "DISCOVERY",
+    "raw": "6632600:ro263|BTH|N|DISCOVERY|通过潜在能力，能比较容易找到弩炮"
+  },
+  {
+    "effect_id": 6632700,
+    "name": "通过潜在能力，能比较容易找到小盾",
+    "roll_order": 264,
+    "compatibility": "BTH",
+    "req_debuff": "N",
+    "roll_group": "DISCOVERY",
+    "raw": "6632700:ro264|BTH|N|DISCOVERY|通过潜在能力，能比较容易找到小盾"
+  },
+  {
+    "effect_id": 6632800,
+    "name": "通过潜在能力，能比较容易找到中盾",
+    "roll_order": 265,
+    "compatibility": "BTH",
+    "req_debuff": "N",
+    "roll_group": "DISCOVERY",
+    "raw": "6632800:ro265|BTH|N|DISCOVERY|通过潜在能力，能比较容易找到中盾"
+  },
+  {
+    "effect_id": 6632900,
+    "name": "通过潜在能力，能比较容易找到大盾",
+    "roll_order": 266,
+    "compatibility": "BTH",
+    "req_debuff": "N",
+    "roll_group": "DISCOVERY",
+    "raw": "6632900:ro266|BTH|N|DISCOVERY|通过潜在能力，能比较容易找到大盾"
+  },
+  {
+    "effect_id": 6633000,
+    "name": "通过潜在能力，能比较容易找到手杖",
+    "roll_order": 267,
+    "compatibility": "BTH",
+    "req_debuff": "N",
+    "roll_group": "DISCOVERY",
+    "raw": "6633000:ro267|BTH|N|DISCOVERY|通过潜在能力，能比较容易找到手杖"
+  },
+  {
+    "effect_id": 6633100,
+    "name": "通过潜在能力，能比较容易找到圣印记",
+    "roll_order": 268,
+    "compatibility": "BTH",
+    "req_debuff": "N",
+    "roll_group": "DISCOVERY",
+    "raw": "6633100:ro268|BTH|N|DISCOVERY|通过潜在能力，能比较容易找到圣印记"
+  },
+  {
+    "effect_id": -1,
+    "name": "--[杂项]--",
+    "roll_order": null,
+    "compatibility": "",
+    "req_debuff": "N",
+    "roll_group": "",
+    "raw": "-1:--[杂项]--"
+  },
+  {
+    "effect_id": 7000000,
+    "name": "生命力+１",
+    "roll_order": 415,
+    "compatibility": "STD",
+    "req_debuff": "N",
+    "roll_group": "NONE",
+    "raw": "7000000:ro415|STD|N|NONE|生命力+１"
+  },
+  {
+    "effect_id": 7000001,
+    "name": "生命力+２",
+    "roll_order": 416,
+    "compatibility": "STD",
+    "req_debuff": "N",
+    "roll_group": "NONE",
+    "raw": "7000001:ro416|STD|N|NONE|生命力+２"
+  },
+  {
+    "effect_id": 7000002,
+    "name": "生命力+３",
+    "roll_order": 417,
+    "compatibility": "STD",
+    "req_debuff": "N",
+    "roll_group": "NONE",
+    "raw": "7000002:ro417|STD|N|NONE|生命力+３"
+  },
+  {
+    "effect_id": 7000100,
+    "name": "集中力+１",
+    "roll_order": 418,
+    "compatibility": "STD",
+    "req_debuff": "N",
+    "roll_group": "NONE",
+    "raw": "7000100:ro418|STD|N|NONE|集中力+１"
+  },
+  {
+    "effect_id": 7000101,
+    "name": "集中力+２",
+    "roll_order": 419,
+    "compatibility": "STD",
+    "req_debuff": "N",
+    "roll_group": "NONE",
+    "raw": "7000101:ro419|STD|N|NONE|集中力+２"
+  },
+  {
+    "effect_id": 7000102,
+    "name": "集中力+３",
+    "roll_order": 420,
+    "compatibility": "STD",
+    "req_debuff": "N",
+    "roll_group": "NONE",
+    "raw": "7000102:ro420|STD|N|NONE|集中力+３"
+  },
+  {
+    "effect_id": 7000200,
+    "name": "耐力+１",
+    "roll_order": 421,
+    "compatibility": "STD",
+    "req_debuff": "N",
+    "roll_group": "NONE",
+    "raw": "7000200:ro421|STD|N|NONE|耐力+１"
+  },
+  {
+    "effect_id": 7000201,
+    "name": "耐力+２",
+    "roll_order": 422,
+    "compatibility": "STD",
+    "req_debuff": "N",
+    "roll_group": "NONE",
+    "raw": "7000201:ro422|STD|N|NONE|耐力+２"
+  },
+  {
+    "effect_id": 7000202,
+    "name": "耐力+３",
+    "roll_order": 423,
+    "compatibility": "STD",
+    "req_debuff": "N",
+    "roll_group": "NONE",
+    "raw": "7000202:ro423|STD|N|NONE|耐力+３"
+  },
+  {
+    "effect_id": 7000300,
+    "name": "力气+１",
+    "roll_order": 424,
+    "compatibility": "STD",
+    "req_debuff": "N",
+    "roll_group": "NONE",
+    "raw": "7000300:ro424|STD|N|NONE|力气+１"
+  },
+  {
+    "effect_id": 7000301,
+    "name": "力气+２",
+    "roll_order": 425,
+    "compatibility": "STD",
+    "req_debuff": "N",
+    "roll_group": "NONE",
+    "raw": "7000301:ro425|STD|N|NONE|力气+２"
+  },
+  {
+    "effect_id": 7000302,
+    "name": "力气+３",
+    "roll_order": 426,
+    "compatibility": "STD",
+    "req_debuff": "N",
+    "roll_group": "NONE",
+    "raw": "7000302:ro426|STD|N|NONE|力气+３"
+  },
+  {
+    "effect_id": 7000400,
+    "name": "灵巧+１",
+    "roll_order": 427,
+    "compatibility": "STD",
+    "req_debuff": "N",
+    "roll_group": "NONE",
+    "raw": "7000400:ro427|STD|N|NONE|灵巧+１"
+  },
+  {
+    "effect_id": 7000401,
+    "name": "灵巧+２",
+    "roll_order": 428,
+    "compatibility": "STD",
+    "req_debuff": "N",
+    "roll_group": "NONE",
+    "raw": "7000401:ro428|STD|N|NONE|灵巧+２"
+  },
+  {
+    "effect_id": 7000402,
+    "name": "灵巧+３",
+    "roll_order": 429,
+    "compatibility": "STD",
+    "req_debuff": "N",
+    "roll_group": "NONE",
+    "raw": "7000402:ro429|STD|N|NONE|灵巧+３"
+  },
+  {
+    "effect_id": 7000500,
+    "name": "智力+１",
+    "roll_order": 430,
+    "compatibility": "STD",
+    "req_debuff": "N",
+    "roll_group": "NONE",
+    "raw": "7000500:ro430|STD|N|NONE|智力+１"
+  },
+  {
+    "effect_id": 7000501,
+    "name": "智力+２",
+    "roll_order": 431,
+    "compatibility": "STD",
+    "req_debuff": "N",
+    "roll_group": "NONE",
+    "raw": "7000501:ro431|STD|N|NONE|智力+２"
+  },
+  {
+    "effect_id": 7000502,
+    "name": "智力+３",
+    "roll_order": 432,
+    "compatibility": "STD",
+    "req_debuff": "N",
+    "roll_group": "NONE",
+    "raw": "7000502:ro432|STD|N|NONE|智力+３"
+  },
+  {
+    "effect_id": 7000600,
+    "name": "信仰+１",
+    "roll_order": 433,
+    "compatibility": "STD",
+    "req_debuff": "N",
+    "roll_group": "NONE",
+    "raw": "7000600:ro433|STD|N|NONE|信仰+１"
+  },
+  {
+    "effect_id": 7000601,
+    "name": "信仰+２",
+    "roll_order": 434,
+    "compatibility": "STD",
+    "req_debuff": "N",
+    "roll_group": "NONE",
+    "raw": "7000601:ro434|STD|N|NONE|信仰+２"
+  },
+  {
+    "effect_id": 7000602,
+    "name": "信仰+３",
+    "roll_order": 435,
+    "compatibility": "STD",
+    "req_debuff": "N",
+    "roll_group": "NONE",
+    "raw": "7000602:ro435|STD|N|NONE|信仰+３"
+  },
+  {
+    "effect_id": 7000700,
+    "name": "感应+１",
+    "roll_order": 436,
+    "compatibility": "STD",
+    "req_debuff": "N",
+    "roll_group": "NONE",
+    "raw": "7000700:ro436|STD|N|NONE|感应+１"
+  },
+  {
+    "effect_id": 7000701,
+    "name": "感应+２",
+    "roll_order": 437,
+    "compatibility": "STD",
+    "req_debuff": "N",
+    "roll_group": "NONE",
+    "raw": "7000701:ro437|STD|N|NONE|感应+２"
+  },
+  {
+    "effect_id": 7000702,
+    "name": "感应+３",
+    "roll_order": 438,
+    "compatibility": "STD",
+    "req_debuff": "N",
+    "roll_group": "NONE",
+    "raw": "7000702:ro438|STD|N|NONE|感应+３"
+  },
+  {
+    "effect_id": 7000800,
+    "name": "缩短技艺的冷却时间+１",
+    "roll_order": 439,
+    "compatibility": "STD",
+    "req_debuff": "N",
+    "roll_group": "NONE",
+    "raw": "7000800:ro439|STD|N|NONE|缩短技艺的冷却时间+１"
+  },
+  {
+    "effect_id": 7000801,
+    "name": "缩短技艺的冷却时间+２",
+    "roll_order": 440,
+    "compatibility": "STD",
+    "req_debuff": "N",
+    "roll_group": "NONE",
+    "raw": "7000801:ro440|STD|N|NONE|缩短技艺的冷却时间+２"
+  },
+  {
+    "effect_id": 7000802,
+    "name": "缩短技艺的冷却时间+３",
+    "roll_order": 441,
+    "compatibility": "STD",
+    "req_debuff": "N",
+    "roll_group": "NONE",
+    "raw": "7000802:ro441|STD|N|NONE|缩短技艺的冷却时间+３"
+  },
+  {
+    "effect_id": 7000900,
+    "name": "自然累积绝招量表 +１",
+    "roll_order": 442,
+    "compatibility": "STD",
+    "req_debuff": "N",
+    "roll_group": "NONE",
+    "raw": "7000900:ro442|STD|N|NONE|自然累积绝招量表 +１"
+  },
+  {
+    "effect_id": 7000901,
+    "name": "自然累积绝招量表 +２",
+    "roll_order": 443,
+    "compatibility": "STD",
+    "req_debuff": "N",
+    "roll_group": "NONE",
+    "raw": "7000901:ro443|STD|N|NONE|自然累积绝招量表 +２"
+  },
+  {
+    "effect_id": 7000902,
+    "name": "自然累积绝招量表 +３",
+    "roll_order": 444,
+    "compatibility": "STD",
+    "req_debuff": "N",
+    "roll_group": "NONE",
+    "raw": "7000902:ro444|STD|N|NONE|自然累积绝招量表 +３"
+  },
+  {
+    "effect_id": 7001000,
+    "name": "强韧度+１",
+    "roll_order": 445,
+    "compatibility": "STD",
+    "req_debuff": "N",
+    "roll_group": "NONE",
+    "raw": "7001000:ro445|STD|N|NONE|强韧度+１"
+  },
+  {
+    "effect_id": 7001001,
+    "name": "强韧度+２",
+    "roll_order": 446,
+    "compatibility": "STD",
+    "req_debuff": "N",
+    "roll_group": "NONE",
+    "raw": "7001001:ro446|STD|N|NONE|强韧度+２"
+  },
+  {
+    "effect_id": 7001002,
+    "name": "强韧度+３",
+    "roll_order": 447,
+    "compatibility": "BTH",
+    "req_debuff": "N",
+    "roll_group": "NONE",
+    "raw": "7001002:ro447|BTH|N|NONE|强韧度+３"
+  },
+  {
+    "effect_id": 7002600,
+    "name": "提升魔力属性减伤率",
+    "roll_order": 463,
+    "compatibility": "BTH",
+    "req_debuff": "N",
+    "roll_group": "NONE",
+    "raw": "7002600:ro463|BTH|N|NONE|提升魔力属性减伤率"
+  },
+  {
+    "effect_id": 7002700,
+    "name": "提升火属性减伤率",
+    "roll_order": 464,
+    "compatibility": "BTH",
+    "req_debuff": "N",
+    "roll_group": "NONE",
+    "raw": "7002700:ro464|BTH|N|NONE|提升火属性减伤率"
+  },
+  {
+    "effect_id": 7002800,
+    "name": "提升雷属性减伤率",
+    "roll_order": 465,
+    "compatibility": "BTH",
+    "req_debuff": "N",
+    "roll_group": "NONE",
+    "raw": "7002800:ro465|BTH|N|NONE|提升雷属性减伤率"
+  },
+  {
+    "effect_id": 7002900,
+    "name": "提升圣属性减伤率",
+    "roll_order": 466,
+    "compatibility": "BTH",
+    "req_debuff": "N",
+    "roll_group": "NONE",
+    "raw": "7002900:ro466|BTH|N|NONE|提升圣属性减伤率"
+  },
+  {
+    "effect_id": 7003000,
+    "name": "提升对中毒的抵抗力",
+    "roll_order": 467,
+    "compatibility": "BTH",
+    "req_debuff": "N",
+    "roll_group": "NONE",
+    "raw": "7003000:ro467|BTH|N|NONE|提升对中毒的抵抗力"
+  },
+  {
+    "effect_id": 7003100,
+    "name": "提升对出血的抵抗力",
+    "roll_order": 468,
+    "compatibility": "BTH",
+    "req_debuff": "N",
+    "roll_group": "NONE",
+    "raw": "7003100:ro468|BTH|N|NONE|提升对出血的抵抗力"
+  },
+  {
+    "effect_id": 7003200,
+    "name": "提升对催眠的抵抗力",
+    "roll_order": 469,
+    "compatibility": "BTH",
+    "req_debuff": "N",
+    "roll_group": "NONE",
+    "raw": "7003200:ro469|BTH|N|NONE|提升对催眠的抵抗力"
+  },
+  {
+    "effect_id": 7003300,
+    "name": "提升对死亡的抵抗力",
+    "roll_order": 470,
+    "compatibility": "BTH",
+    "req_debuff": "N",
+    "roll_group": "NONE",
+    "raw": "7003300:ro470|BTH|N|NONE|提升对死亡的抵抗力"
+  },
+  {
+    "effect_id": 7003400,
+    "name": "提升对猩红腐败的抵抗力",
+    "roll_order": 471,
+    "compatibility": "BTH",
+    "req_debuff": "N",
+    "roll_group": "NONE",
+    "raw": "7003400:ro471|BTH|N|NONE|提升对猩红腐败的抵抗力"
+  },
+  {
+    "effect_id": 7003500,
+    "name": "提升对冻伤的抵抗力",
+    "roll_order": 472,
+    "compatibility": "BTH",
+    "req_debuff": "N",
+    "roll_group": "NONE",
+    "raw": "7003500:ro472|BTH|N|NONE|提升对冻伤的抵抗力"
+  },
+  {
+    "effect_id": 7003600,
+    "name": "提升对发狂的抵抗力",
+    "roll_order": 473,
+    "compatibility": "BTH",
+    "req_debuff": "N",
+    "roll_group": "NONE",
+    "raw": "7003600:ro473|BTH|N|NONE|提升对发狂的抵抗力"
+  },
+  {
+    "effect_id": 7005600,
+    "name": "受到损伤的当下，能通过攻击恢复部分血量",
+    "roll_order": 269,
+    "compatibility": "BTH",
+    "req_debuff": "N",
+    "roll_group": "NONE",
+    "raw": "7005600:ro269|BTH|N|NONE|受到损伤的当下，能通过攻击恢复部分血量"
+  },
+  {
+    "effect_id": 7010200,
+    "name": "使用圣杯瓶时，连同恢复周围我方人物",
+    "roll_order": 272,
+    "compatibility": "BTH",
+    "req_debuff": "N",
+    "roll_group": "NONE",
+    "raw": "7010200:ro272|BTH|N|NONE|使用圣杯瓶时，连同恢复周围我方人物"
+  },
+  {
+    "effect_id": 7012200,
+    "name": "血量偏低时，包含周围我方人物缓慢恢复血量",
+    "roll_order": 273,
+    "compatibility": "BTH",
+    "req_debuff": "N",
+    "roll_group": "NONE",
+    "raw": "7012200:ro273|BTH|N|NONE|血量偏低时，包含周围我方人物缓慢恢复血量"
+  },
+  {
+    "effect_id": 7012300,
+    "name": "血量偏低时，能提升减伤率",
+    "roll_order": 274,
+    "compatibility": "BTH",
+    "req_debuff": "N",
+    "roll_group": "NONE",
+    "raw": "7012300:ro274|BTH|N|NONE|血量偏低时，能提升减伤率"
+  },
+  {
+    "effect_id": 7030200,
+    "name": "食用苔药等等道具时，能恢复血量",
+    "roll_order": 275,
+    "compatibility": "BTH",
+    "req_debuff": "N",
+    "roll_group": "NONE",
+    "raw": "7030200:ro275|BTH|N|NONE|食用苔药等等道具时，能恢复血量"
+  },
+  {
+    "effect_id": 7030600,
+    "name": "防御成功时，能累积绝招量表",
+    "roll_order": 276,
+    "compatibility": "BTH",
+    "req_debuff": "N",
+    "roll_group": "NONE",
+    "raw": "7030600:ro276|BTH|N|NONE|防御成功时，能累积绝招量表"
+  },
+  {
+    "effect_id": 7030700,
+    "name": "防御时，变得容易被敌人攻击",
+    "roll_order": 277,
+    "compatibility": "BTH",
+    "req_debuff": "N",
+    "roll_group": "NONE",
+    "raw": "7030700:ro277|BTH|N|NONE|防御时，变得容易被敌人攻击"
+  },
+  {
+    "effect_id": 7030800,
+    "name": "使出致命一击时，加快累积绝招量表",
+    "roll_order": 278,
+    "compatibility": "BTH",
+    "req_debuff": "N",
+    "roll_group": "NONE",
+    "raw": "7030800:ro278|BTH|N|NONE|使出致命一击时，加快累积绝招量表"
+  },
+  {
+    "effect_id": 7031900,
+    "name": "使出致命一击时，能获得卢恩",
+    "roll_order": 377,
+    "compatibility": "BTH",
+    "req_debuff": "N",
+    "roll_group": "NONE",
+    "raw": "7031900:ro377|BTH|N|NONE|使出致命一击时，能获得卢恩"
+  },
+  {
+    "effect_id": 7035100,
+    "name": "使出致命一击时，能提升精力的恢复速度",
+    "roll_order": 281,
+    "compatibility": "BTH",
+    "req_debuff": "N",
+    "roll_group": "NONE",
+    "raw": "7035100:ro281|BTH|N|NONE|使出致命一击时，能提升精力的恢复速度"
+  },
+  {
+    "effect_id": 7036100,
+    "name": "防御成功时，恢复血量",
+    "roll_order": 55,
+    "compatibility": "BTH",
+    "req_debuff": "N",
+    "roll_group": "NONE",
+    "raw": "7036100:ro55|BTH|N|NONE|防御成功时，恢复血量"
+  },
+  {
+    "effect_id": 7040300,
+    "name": "提升投掷壶的攻击力",
+    "roll_order": 285,
+    "compatibility": "BTH",
+    "req_debuff": "N",
+    "roll_group": "NONE",
+    "raw": "7040300:ro285|BTH|N|NONE|提升投掷壶的攻击力"
+  },
+  {
+    "effect_id": 7040400,
+    "name": "提升投掷小刀的攻击力",
+    "roll_order": 286,
+    "compatibility": "BTH",
+    "req_debuff": "N",
+    "roll_group": "NONE",
+    "raw": "7040400:ro286|BTH|N|NONE|提升投掷小刀的攻击力"
+  },
+  {
+    "effect_id": 7040500,
+    "name": "提升使用辉石、重力石道具的攻击力",
+    "roll_order": 287,
+    "compatibility": "BTH",
+    "req_debuff": "N",
+    "roll_group": "NONE",
+    "raw": "7040500:ro287|BTH|N|NONE|提升使用辉石、重力石道具的攻击力"
+  },
+  {
+    "effect_id": 7043100,
+    "name": "强化调香术",
+    "roll_order": 289,
+    "compatibility": "BTH",
+    "req_debuff": "N",
+    "roll_group": "NONE",
+    "raw": "7043100:ro289|BTH|N|NONE|强化调香术"
+  },
+  {
+    "effect_id": 7050000,
+    "name": "不包含自己，提升周围我方人物的精力恢复速度",
+    "roll_order": 304,
+    "compatibility": "BTH",
+    "req_debuff": "N",
+    "roll_group": "NONE",
+    "raw": "7050000:ro304|BTH|N|NONE|不包含自己，提升周围我方人物的精力恢复速度"
+  },
+  {
+    "effect_id": 7050100,
+    "name": "道具效用能扩及我方人物",
+    "roll_order": 305,
+    "compatibility": "BTH",
+    "req_debuff": "N",
+    "roll_group": "NONE",
+    "raw": "7050100:ro305|BTH|N|NONE|道具效用能扩及我方人物"
+  },
+  {
+    "effect_id": 7060100,
+    "name": "每次解开魔法师塔的机关，能提升专注值上限",
+    "roll_order": 307,
+    "compatibility": "STD",
+    "req_debuff": "N",
+    "roll_group": "NONE",
+    "raw": "7060100:ro307|STD|N|NONE|每次解开魔法师塔的机关，能提升专注值上限"
+  },
+  {
+    "effect_id": 7070000,
+    "name": "能显示地图上隐藏宝藏的位置",
+    "roll_order": 309,
+    "compatibility": "BTH",
+    "req_debuff": "N",
+    "roll_group": "NONE",
+    "raw": "7070000:ro309|BTH|N|NONE|能显示地图上隐藏宝藏的位置"
+  },
+  {
+    "effect_id": 7090000,
+    "name": "提升打倒敌人时，绝招量表的累积量表",
+    "roll_order": 310,
+    "compatibility": "BTH",
+    "req_debuff": "N",
+    "roll_group": "NONE",
+    "raw": "7090000:ro310|BTH|N|NONE|提升打倒敌人时，绝招量表的累积量表"
+  },
+  {
+    "effect_id": 7090100,
+    "name": "打倒敌人时，除了自己恢复周围我方人物的血量",
+    "roll_order": 311,
+    "compatibility": "BTH",
+    "req_debuff": "N",
+    "roll_group": "NONE",
+    "raw": "7090100:ro311|BTH|N|NONE|打倒敌人时，除了自己恢复周围我方人物的血量"
+  },
+  {
+    "effect_id": 7100100,
+    "name": "攻击命中时，能恢复精力",
+    "roll_order": 312,
+    "compatibility": "BTH",
+    "req_debuff": "N",
+    "roll_group": "NONE",
+    "raw": "7100100:ro312|BTH|N|NONE|攻击命中时，能恢复精力"
+  },
+  {
+    "effect_id": 7110000,
+    "name": "增加自己与我方人物获得的卢恩",
+    "roll_order": 313,
+    "compatibility": "STD",
+    "req_debuff": "N",
+    "roll_group": "NONE",
+    "raw": "7110000:ro313|STD|N|NONE|增加自己与我方人物获得的卢恩"
+  },
+  {
+    "effect_id": 7160000,
+    "name": "突刺反击成功时，能恢复血量",
+    "roll_order": 361,
+    "compatibility": "BTH",
+    "req_debuff": "N",
+    "roll_group": "NONE",
+    "raw": "7160000:ro361|BTH|N|NONE|突刺反击成功时，能恢复血量"
+  },
+  {
+    "effect_id": 7230000,
+    "name": "在出击期间，减少于商店购物时所需的卢恩",
+    "roll_order": 362,
+    "compatibility": "BTH",
+    "req_debuff": "N",
+    "roll_group": "NONE",
+    "raw": "7230000:ro362|BTH|N|NONE|在出击期间，减少于商店购物时所需的卢恩"
+  },
+  {
+    "effect_id": 7240000,
+    "name": "受到损伤并被弹飞时，能提升强韧度与减伤率",
+    "roll_order": 363,
+    "compatibility": "BTH",
+    "req_debuff": "N",
+    "roll_group": "NONE",
+    "raw": "7240000:ro363|BTH|N|NONE|受到损伤并被弹飞时，能提升强韧度与减伤率"
+  }
+]
