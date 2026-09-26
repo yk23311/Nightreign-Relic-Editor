@@ -84,8 +84,8 @@
 ### 方式二：从源码运行
 
 ```bat
-git clone https://github.com/<你的用户名>/黑环ce助手.git
-cd 黑环ce助手\blackring_ce_assistant
+git clone https://github.com/yk23311/blackring-ce-assistant.git
+cd blackring-ce-assistant\blackring_ce_assistant
 python -m venv .venv
 .venv\Scripts\activate
 pip install -r requirements.txt
@@ -193,7 +193,7 @@ python main.py --demo
 ## 项目结构
 
 ```text
-黑环ce助手/                      ← 仓库根
+blackring-ce-assistant/         ← 仓库根
 ├── README.md                    本文件（完整说明书）
 ├── LICENSE                      GPL-3.0
 └── blackring_ce_assistant/      程序本体
