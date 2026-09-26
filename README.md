@@ -24,9 +24,21 @@
 
 **特性**：离线可用 · 不依赖 Cheat Engine 客户端 · 中文界面 · 卡片式操作 · 写入前规则校验 · 全程可撤销
 
-![界面预览](docs/screenshot-main.png)
+![界面预览](blackring_ce_assistant/docs/screenshot-main.png)
 
 *上图是演示模式（`python main.py --demo`）—— 不需要游戏就能看到界面长什么样。*
+
+---
+
+## 文档导航
+
+| 文档 | 内容 |
+|------|------|
+| 本文件 | 总览、安装、完整使用说明、FAQ、开发与打包 |
+| [docs/USER_GUIDE.md](blackring_ce_assistant/docs/USER_GUIDE.md) | 使用说明（精简版，适合随程序一起看） |
+| [docs/ARCHITECTURE.md](blackring_ce_assistant/docs/ARCHITECTURE.md) | 架构与分层设计 |
+| [docs/FIELD_MAPPING.md](blackring_ce_assistant/docs/FIELD_MAPPING.md) | 内存字段 / 偏移映射 |
+| [docs/DISCLAIMER.md](blackring_ce_assistant/docs/DISCLAIMER.md) | 免责声明全文 |
 
 ---
 
@@ -64,14 +76,16 @@
 2. 解压到任意目录（**绿色版，无需安装**）
 3. 双击 `黑环CE助手_v1.0.0.exe`
 
+压缩包里同时附有 `使用说明.md`、`README.md` 与 `LICENSE`，离线也能查。
+
 需要系统装有 **WebView2 运行时**（Windows 11 自带；Windows 10 多数已随 Edge 安装）。
 缺失时程序会弹出提示并给出微软官方下载地址。
 
 ### 方式二：从源码运行
 
 ```bat
-git clone <本仓库地址>
-cd blackring_ce_assistant
+git clone https://github.com/<你的用户名>/黑环ce助手.git
+cd 黑环ce助手\blackring_ce_assistant
 python -m venv .venv
 .venv\Scripts\activate
 pip install -r requirements.txt
@@ -179,21 +193,26 @@ python main.py --demo
 ## 项目结构
 
 ```text
-blackring_ce_assistant/
-├── main.py                  入口（转调 webui.main；支持 --demo）
-├── run_tests.py             零依赖测试运行器
-├── build.py / webui.spec    打包（PyInstaller onedir）
-├── tools_export_ct.py       从 CT 重新导出 data/
-├── tools_diag_live.py       实机诊断：AOB 命中、符号地址、6 槽读数
-├── domain/                  模型、枚举、规则（纯逻辑，可单测）
-├── mapping/                 CT 解析、CE 地址表达式、映射配置
-├── infra/memory/            内存后端、CE 指针链、AOB、事务、符号解析
-├── app/services/            遗物服务：读槽 / 校验 / 批量写 / 撤销
-├── webui/                   界面：bridge.py（前后端唯一接口）、serial.py（内存操作串行化）、
-│                            demo.py（演示后端）、web/（HTML/CSS/JS 前端）
-├── data/                    mapping.json 与 effects_*.json（由 CT 导出）
-├── tests/                   78 个单元 / 集成用例
-└── docs/                    架构说明、字段映射、使用说明、界面截图
+黑环ce助手/                      ← 仓库根
+├── README.md                    本文件（完整说明书）
+├── LICENSE                      GPL-3.0
+└── blackring_ce_assistant/      程序本体
+    ├── main.py                  入口（转调 webui.main；支持 --demo）
+    ├── run_tests.py             零依赖测试运行器
+    ├── build.py / webui.spec    打包（PyInstaller onedir）
+    ├── tools_export_ct.py       从 CT 重新导出 data/
+    ├── tools_diag_live.py       实机诊断：AOB 命中、符号地址、6 槽读数
+    ├── tools_diag_dump.py       对象 hexdump 校验
+    ├── tools_dump_symbols.py    导出符号与地址，便于比对
+    ├── domain/                  模型、枚举、规则（纯逻辑，可单测）
+    ├── mapping/                 CT 解析、CE 地址表达式、映射配置
+    ├── infra/memory/            内存后端、CE 指针链、AOB、事务、符号解析
+    ├── app/services/            遗物服务：读槽 / 校验 / 批量写 / 撤销
+    ├── webui/                   界面：bridge.py（前后端唯一接口）、serial.py（内存操作串行化）、
+    │                            demo.py（演示后端）、web/（HTML/CSS/JS 前端）
+    ├── data/                    mapping.json 与 effects_*.json（由 CT 导出）
+    ├── tests/                   78 个单元 / 集成用例
+    └── docs/                    架构说明、字段映射、使用说明、界面截图
 ```
 
 ### 设计要点
@@ -226,6 +245,7 @@ cd webui
 ```bat
 python build.py
 REM 产物: dist/黑环CE助手_v<版本>/（onedir 绿色文件夹，约 28MB）
+REM 说明书与 LICENSE 会自动复制进该目录
 ```
 
 > `build.py` **不会**清空 `dist/`：那里是各版本唯一的一份交付产物。
@@ -256,7 +276,7 @@ python run_tests.py
 
 | 版本 | 要点 |
 |------|------|
-| **1.0.0** | 首个对外发布版：整理仓库（不再收录任何二进制）、完善说明书、版本号转正 |
+| **1.0.0** | 首个对外发布版：整理仓库（不再收录任何二进制）、说明书提到仓库根并随发布包分发、版本号转正 |
 | 0.7.0 | 界面重构为 pywebview + Web 前端（卡片工作台）；移除 PySide6；改 onedir 分发（45.8MB → 28MB） |
 | 0.6.1 | 换用重新翻译的 CT；高级模式改用全量表 `RelicID`（1076 条）并按 CT 自带分组显示 |
 | 0.6.0 | 移除 RNG 安全门；高级模式跨选（属性↔减益）+ 手动 ID |

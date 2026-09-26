@@ -32,6 +32,29 @@ def _is_locked(path: Path) -> bool:
         return True
 
 
+def _copy_docs(target: Path) -> list[str]:
+    """把说明书与许可证复制进发布目录。
+
+    只下载 Release 包的人手里只有 exe —— 不附文档就等于没有说明书。
+    文档在仓库里只有一份（仓库根 README/LICENSE 与 docs/USER_GUIDE.md），
+    这里只做复制，不生成第二份内容，避免两边漂移。
+    """
+    repo_root = ROOT.parent
+    pairs = [
+        (repo_root / "README.md", "README.md"),
+        (repo_root / "LICENSE", "LICENSE"),
+        (ROOT / "docs" / "USER_GUIDE.md", "使用说明.md"),
+    ]
+    copied: list[str] = []
+    for src, name in pairs:
+        if src.exists():
+            shutil.copy2(src, target / name)
+            copied.append(name)
+        else:
+            print(f"  警告：未找到 {src}，已跳过")
+    return copied
+
+
 def main() -> int:
     pyinstaller = ROOT / ".venv" / "Scripts" / "pyinstaller.exe"
     if not pyinstaller.exists():
@@ -64,8 +87,10 @@ def main() -> int:
         return r
 
     if exe.exists():
+        docs = _copy_docs(target)
         total = sum(f.stat().st_size for f in target.rglob("*") if f.is_file())
         print(f"OK: {target}/  (合计 {total / 1024 / 1024:.1f} MB, onedir)")
+        print("已附文档: " + ("、".join(docs) if docs else "（无）"))
         print("提示: dist/ 下旧版本产物未被删除；如需清理请人工确认后再删。")
     else:
         print(f"未找到打包产物（期望 {exe}），请检查 dist/ 与 spec 里的 name=")
