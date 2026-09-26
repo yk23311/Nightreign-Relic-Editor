@@ -72,7 +72,8 @@
 
 ### 方式一：下载发布版（推荐）
 
-1. 到本仓库 **Releases** 页下载 `黑环CE助手_v1.0.0.zip`
+1. 到本仓库 **Releases** 页下载 `BlackRing-CE-Assistant_v1.0.0.zip`
+   （GitHub 的发布资产名只接受 ASCII，包内程序名仍是中文）
 2. 解压到任意目录（**绿色版，无需安装**）
 3. 双击 `黑环CE助手_v1.0.0.exe`
 
